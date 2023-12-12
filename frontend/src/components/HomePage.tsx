@@ -1,6 +1,12 @@
+import styled from "styled-components";
+
+const StyledContainer = styled.div`
+  padding: 10px;
+`;
+
 export default function HomePage() {
   return (
-    <>
+    <StyledContainer>
       <h1>Harmony Run</h1>
       <div>
         <p>
@@ -42,6 +48,6 @@ export default function HomePage() {
           and explore the path to harmony and well-being with Harmony Run!
         </p>
       </div>
-    </>
+    </StyledContainer>
   );
 }
