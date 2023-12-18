@@ -6,7 +6,7 @@ Man behöver inte fylla i antecknings sektionen.
 
 Scenario: Knappen ska gå att trycka på när inputfälten är ifyllda
  Given Formuläret är laddat och knappen är inaktiverad
- When Jag fyller i inputfälten
+ When Jag fyller i alla inputfälten
  Then Då ska knappen bli aktiv
 
 Scenario: Knappen ska inte gå att trycka på om bara några inputfält alternativ är ifyllda
