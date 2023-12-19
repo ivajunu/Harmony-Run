@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
-  background-color: #f3a3ca;
+  background-color: #a01d5d;
   padding: 10px;
   border-bottom: 0.5px solid #e591b9;
   border-bottom-left-radius: 50%;
@@ -27,7 +27,7 @@ export const StyledLinks = styled(Link)`
   font-size: 20px;
   font-family: "Dosis", sans-serif;
   font-weight: 800;
-  color: #5c1337;
+  color: #fdfdfd;
   padding: 0;
   margin: 0;
   &:focus {
@@ -44,14 +44,17 @@ export const FlowerIcon = styled.img`
 
 export const StyledMenuItem = styled(MenuItem)`
   && {
-    background-color: #f3a3ca;
+    background-color: #a01d5d;
     padding: 10px;
-    outline: #e591b9 solid 1px;
+    outline: #a01d5d solid 1px;
   }
 `;
 
 export const StyledH1 = styled.h1`
-  font-size: 38px;
-  font-weight: 500;
-  color: #5c1337;
+  a {
+    font-size: 38px;
+    font-weight: 500;
+    color: #fdfdfd;
+    text-decoration: none;
+  }
 `;

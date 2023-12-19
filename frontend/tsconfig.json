@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src",  "cypress/**/*.ts",],
+  "include": ["src",  "cypress/**/*.ts", "cypress/component/HealthForm.cy.txs",],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

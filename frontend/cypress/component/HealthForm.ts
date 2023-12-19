@@ -18,12 +18,12 @@ Given("Formuläret är laddat och knappen är inaktiverad", () => {
 })
 
 When("Jag fyller i alla inputfälten", function () {
-  cy.get('#mood-radio-group').contains('Happy').click();
-    cy.get('#energy-radio-group').contains('Energetic').click();
-    cy.get('#pain-radio-group').contains('No').click();
-    cy.get('#period-radio-group').contains('No').click();
-    cy.get('#flow-radio-group').contains('No').click();
-    cy.get('#period-pain-radio-group').contains('No').click();
+  cy.get('#mood').contains('Happy').click();
+    cy.get('#energy').contains('Energetic').click();
+    cy.get('#pain').contains('No').click();
+    cy.get('#period').contains('No').click();
+    cy.get('#flow').contains('No').click();
+    cy.get('#period').contains('No').click();
 });
 
 Then('Då ska knappen bli aktiv', () => {
@@ -42,9 +42,9 @@ Given("Formuläret är laddat och knappen är inaktiverad", () => {
 })
 
 When("Jag fyller tre av inputfälten", () => {
-  cy.get('#mood-radio-group').contains('Happy').click();
-  cy.get('#energy-radio-group').contains('Energetic').click();
-  cy.get('#pain-radio-group').contains('No').click();
+  cy.get('#mood').contains('Happy').click();
+  cy.get('#energy').contains('Energetic').click();
+  cy.get('#pain').contains('No').click();
 })
 
 Then("Då ska knappen förbli inaktiv", ()=> {
