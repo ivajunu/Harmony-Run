@@ -5,7 +5,12 @@ import HomePage from "./components/HomePage/HomePage";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
-import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
+import {
+  createHashRouter,
+  Link,
+  Outlet,
+  RouterProvider,
+} from "react-router-dom";
 import { useState } from "react";
 import {
   FlowerIcon,
@@ -46,7 +51,9 @@ function Main() {
     <>
       <StyledNav>
         <FlowerIcon src="../public/flowericon.png" />
-        <StyledH1>Harmony Run</StyledH1>
+        <StyledH1>
+          <Link to="/">Harmony Run</Link>
+        </StyledH1>
         <div>
           <Button
             id="basic-button"
@@ -57,7 +64,7 @@ function Main() {
           >
             <MenuIcon
               sx={{
-                color: "#5c1337",
+                color: "#f3ecef",
                 width: "50px",
                 height: "45px",
               }}
