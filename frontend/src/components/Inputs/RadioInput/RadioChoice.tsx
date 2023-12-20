@@ -1,24 +1,7 @@
-import Radio from "@mui/material/Radio";
 import { RadioProps } from "@mui/material/Radio";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import { ReactNode } from "react";
-import styled from "styled-components";
 
-const StyledFormControlLabel = styled(FormControlLabel)`
-  && {
-    color: #fdfdfd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: inherit;
-  }
-`;
-
-const StyledRadio = styled(Radio)`
-  .Mui-checked {
-    color: aliceblue;
-  }
-`;
+import { StyledFormControlLabel, StyledRadio } from "./RadioGroup.styled";
 
 type RadioChoiceProps = RadioProps & {
   formvalue?: ReactNode;

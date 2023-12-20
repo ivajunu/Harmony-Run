@@ -1,24 +1,8 @@
 import { useEffect, useState } from "react";
-import RadioChoice from "../Inputs/RadioInput/RadioChoice";
-import RadioInput from "../Inputs/RadioInput/RadioInput";
-import ButtonPrimary from "../Buttons/Button";
-import styled from "styled-components";
-
-const Styledh1 = styled.h1`
-  font-family: inherit;
-  font-size: 26px;
-  color: #5c1337;
-  text-align: center;
-  padding: 5px;
-  margin: 15px;
-`;
-
-const StyledButtonDiv = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-`;
+import RadioChoice from "../../Inputs/RadioInput/RadioChoice";
+import RadioInput from "../../Inputs/RadioInput/RadioInput";
+import ButtonPrimary from "../../Buttons/Button";
+import { Styledh1, StyledButtonDiv } from "./HealthForm.styled.tsx";
 
 export default function HealthForm() {
   const [mood, setMood] = useState<string>("");
@@ -43,6 +27,37 @@ export default function HealthForm() {
       setDisabled(true);
     }
   }, [energy, flow, mood, pain, period, periodPain]);
+
+  function handlesubmit() {
+    // valde att ha kvar värdena som strings för att inte formulären skulle få problem
+    const moodValue = Number(mood);
+    console.log(moodValue);
+    const energyValue = Number(energy);
+    console.log(energyValue);
+
+    const painValue = Number(pain);
+    console.log(painValue);
+
+    const periodValue = Number(period);
+    console.log(periodValue);
+
+    const flowValue = Number(flow);
+    console.log(flowValue);
+
+    const periodPainValue = Number(periodPain);
+    console.log(periodPainValue);
+
+    const dailyResult = Math.round(
+      (moodValue +
+        energyValue +
+        painValue +
+        periodValue +
+        flowValue +
+        periodPainValue) /
+        6
+    );
+    console.log("resultat", dailyResult);
+  }
 
   return (
     <>
@@ -162,9 +177,7 @@ export default function HealthForm() {
       <StyledButtonDiv>
         <ButtonPrimary
           buttonLabel="Send"
-          onClick={() => {
-            console.log("hello");
-          }}
+          onClick={handlesubmit}
           variant="outlined"
           disabled={disabled}
           id="submit"
