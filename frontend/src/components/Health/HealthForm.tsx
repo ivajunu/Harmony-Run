@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import RadioChoice from "../Inputs/RadioInput/RadioChoice";
 import RadioInput from "../Inputs/RadioInput/RadioInput";
 import ButtonPrimary from "../Buttons/Button";
@@ -27,6 +27,22 @@ export default function HealthForm() {
   const [period, setPeriod] = useState<string>("");
   const [flow, setFlow] = useState<string>("");
   const [periodPain, setPeriodPain] = useState<string>("");
+  const [disabled, setDisabled] = useState<boolean>(true);
+
+  useEffect(() => {
+    if (
+      mood !== "" &&
+      energy !== "" &&
+      pain !== "" &&
+      period !== "" &&
+      flow !== "" &&
+      periodPain !== ""
+    ) {
+      setDisabled(false);
+    } else {
+      setDisabled(true);
+    }
+  }, [energy, flow, mood, pain, period, periodPain]);
 
   return (
     <>
@@ -150,6 +166,8 @@ export default function HealthForm() {
             console.log("hello");
           }}
           variant="outlined"
+          disabled={disabled}
+          id="submit"
         />
       </StyledButtonDiv>
     </>
