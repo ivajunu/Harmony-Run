@@ -51,6 +51,11 @@ export default function RadioChoice(props: RadioChoiceProps) {
         />
       }
       label={choiceLabel}
+      sx={{
+        "& .MuiTypography-root": {
+          fontFamily: "inherit",
+        },
+      }}
     />
   );
 }
