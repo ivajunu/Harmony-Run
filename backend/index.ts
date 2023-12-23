@@ -19,18 +19,11 @@ const client = new Client({
 
 client.connect();
 
-// GET anrop
-
-app.get("/api", async (_request, response) => {
-  const { rows } = await client.query("SELECT * FROM score;");
-  response.send(rows);
-});
-
 
 app.listen(port, () => {
   console.log(`Redo på http://localhost:${port}/`);
 });
 
-app.listen(function () {
+app.listen( function () {
   console.log("CORS-enabled web server listening on port 80");
 });
