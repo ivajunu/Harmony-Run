@@ -20,6 +20,14 @@ const client = new Client({
 client.connect();
 
 
+// GET anrop
+
+// app.get("/api:score", async (_request, response) => {
+//   const score = req.param.score
+//   const { rows } = await client.query("SELECT * FROM score;");
+//   response.send(rows);
+// });
+
 app.listen(port, () => {
   console.log(`Redo på http://localhost:${port}/`);
 });

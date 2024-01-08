@@ -57,6 +57,21 @@ export default function HealthForm() {
         6
     );
     console.log("resultat", dailyResult);
+
+    function Converter(dailyResult: number) {
+      let resultCategory: string = "nothing";
+      if (dailyResult <= 3) {
+        resultCategory = "low";
+      } else if (dailyResult <= 4) {
+        resultCategory = "medium";
+      } else if (dailyResult === 5) {
+        resultCategory = "high";
+      }
+      return resultCategory;
+    }
+
+    const finalResult = Converter(dailyResult);
+    console.log("finalresult:", finalResult);
   }
 
   return (

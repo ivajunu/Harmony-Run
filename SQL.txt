@@ -1,0 +1,94 @@
+
+CREATE TABLE low (
+id serial PRIMARY KEY,
+“type of run” text,
+duration text,
+intensity text,
+instruction text
+);
+
+CREATE TABLE medium (
+id serial PRIMARY KEY,
+“type of run” text,
+duration text,
+intensity text,
+instruction text
+);
+
+CREATE TABLE high (
+id serial PRIMARY KEY,
+“type of run” text,
+duration text,
+intensity text,
+instruction text
+);
+
+CREATE TABLE general (
+id serial PRIMARY KEY,
+tips text
+);
+
+INSERT INTO general (tips) VALUES ('Listen to Your Body: Pay attention to how your body feels during the run. If you need to take it easy or push a bit harder, adjust accordingly.');
+
+INSERT INTO general (tips) VALUES ('Stay Hydrated: Hydration is important, especially during your period. Drink water before, during, and after your run.');
+
+INSERT INTO general (tips) VALUES ('Stretching: Include dynamic stretching before your run and static stretching afterward to help prevent injury and improve flexibility.');
+
+INSERT INTO general (tips) VALUES ('Rest and Recovery: Allow yourself proper rest days. Your body needs time to recover, especially during your period or when feeling fatigued.');
+
+INSERT INTO general (tips) VALUES ('Remember, these are general guidelines, and its crucial to adapt workouts based on individual fitness levels and health considerations. If you have any specific health concerns or conditions, its always a good idea to consult with a healthcare professional or a fitness expert.
+');
+
+LOW TABLE
+
+INSERT INTO low (“type of run”, duration, intensity, instruction) VALUES (“Gentle Jog or Walk”, “20-30 minutes”, “Low to moderate”, “Focus: Listen to your body and choose a comfortable pace. Walking or a light jog can help with muscle soreness and fatigue.”);
+
+
+INSERT INTO low ("type of run", duration, intensity, instruction)
+VALUES ('Gentle Jog or Walk', '20-30 minutes', 'Low-Intensity Jog: Maintain a pace where you can comfortably hold a conversation.
+Power Walk: Focus on brisk walking to promote blood flow without exerting too much energy.
+Interval Walking: Alternate between a casual stroll and a slightly brisk pace.', 'No instructions');
+
+INSERT INTO low ("type of run", duration, intensity, instruction)
+VALUES ('Gentle Jog or Walk', '20-30 minutes', 'Low intensity', 'Yoga Run Fusion: Combine gentle jogging with short yoga intervals for added flexibility and relaxation.
+Nature Trail Walk: Opt for a nature trail walk to enjoy the calming effects of the outdoors.
+Breathing Exercise Run: Practice deep breathing exercises during your jog to alleviate stress.
+');
+
+
+MEDIUM TABLE
+
+
+INSERT INTO medium ("type of run", duration, intensity, instruction)
+VALUES ('Steady-State Run', '30-40 minutes', 'Moderate', 'Focus: Maintain a steady and comfortable pace. This type of run helps improve endurance without pushing too hard.');
+
+INSERT INTO medium ("type of run", duration, intensity, instruction)
+VALUES ('Fun and Varied Run', '20-30 minutes', 'Mix of low to moderate intensity', 'Focus: Spice up your run with variety. Include elements like short sprints, running to a favorite playlist, or exploring a new route to make it more enjoyable.');
+
+INSERT INTO medium ("type of run", duration, intensity, instruction)
+VALUES ('Moderate Pace with Focus on Recovery', '25-35 minutes', 'Moderate', 'Steady-State Run: Maintain a consistent, moderate pace throughout the run.
+Mindful Running: Practice mindfulness by paying attention to your breath and surroundings.
+Light Hill Sprints: Incorporate short, gentle hill sprints to boost energy without excessive strain.
+');
+
+INSERT INTO medium ("type of run", duration, intensity, instruction)
+VALUES ('Fun and Unconventional', '20-30 minutes', 'Moderate', 'Fartlek Run: Mix up your pace spontaneously, adding short bursts of speed.
+Audio Adventure: Listen to an engaging podcast or audiobook to distract from the run.
+Nature Exploration: Run in a nearby park or nature reserve to enhance the experience.
+');
+
+HIGH TABLE
+
+INSERT INTO high ("type of run", duration, intensity, instruction)
+VALUES ('Interval Training', '30-45 minutes', 'High-intensity intervals alternated with periods of active recovery
+', 'Focus: Incorporate sprints or faster running intervals to capitalize on your positive energy. Include short recovery periods to catch your breath.');
+
+INSERT INTO high ("type of run", duration, intensity, instruction)
+VALUES ('Varied and Energizing', '30-45 minutes', 'High intensity', 'Interval Training: Mix high-intensity sprints with recovery jogs to keep the energy high.
+Explorative Run: Discover a new scenic route or trail to enhance the sense of adventure.
+Dance Run: Incorporate dance moves during your run, turning it into a fun and joyful activity.');
+
+INSERT INTO high ("type of run", duration, intensity, instruction)
+VALUES ('Distance Challenge', '30-60 minutes', 'High intensity', 'Happy 5K Run: Set a goal to run a 5K (3.1 miles) in a joyful and celebratory manner.
+Explore Your Neighborhood: Aim to cover a specific distance while exploring different parts of your neighborhood or city.
+Personal Best Challenge: Challenge yourself to beat your personal best distance, pushing your limits while maintaining a positive mindset.');
