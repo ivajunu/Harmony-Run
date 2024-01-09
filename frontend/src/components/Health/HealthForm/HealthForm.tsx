@@ -59,19 +59,22 @@ export default function HealthForm() {
     console.log("resultat", dailyResult);
 
     function Converter(dailyResult: number) {
+      console.log("den går in här");
       let resultCategory: string = "nothing";
-      if (dailyResult <= 3) {
+      if (dailyResult <= 2) {
         resultCategory = "low";
       } else if (dailyResult <= 4) {
         resultCategory = "medium";
       } else if (dailyResult === 5) {
         resultCategory = "high";
       }
+      console.log(resultCategory);
       return resultCategory;
     }
 
     const finalResult = Converter(dailyResult);
     console.log("finalresult:", finalResult);
+    localStorage.setItem("backendKey", JSON.stringify(finalResult));
   }
 
   return (

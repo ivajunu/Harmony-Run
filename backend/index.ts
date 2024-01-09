@@ -4,6 +4,8 @@ import dotenv from 'dotenv'
 import { Client } from 'pg'
 import express from 'express'
 
+import score from './routes/score'
+
 dotenv.config();
 
 const app = express();
@@ -13,25 +15,25 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "dist")));
 app.use(express.json())
 
-const client = new Client({
+export const client = new Client({
   connectionString: process.env.PGURI,
 });
 
 client.connect();
 
+// routes
+app.use(score);
 
 // GET anrop
+app.get("/api", async (req, res) => {
 
-// app.get("/api:score", async (_request, response) => {
-//   const score = req.param.score
-//   const { rows } = await client.query("SELECT * FROM score;");
-//   response.send(rows);
-// });
+  const { rows } = await client.query(
+      `SELECT * FROM high`
+  );
+    console.log("Get user info", rows);
+    res.send(rows);
+});
 
 app.listen(port, () => {
   console.log(`Redo på http://localhost:${port}/`);
-});
-
-app.listen( function () {
-  console.log("CORS-enabled web server listening on port 80");
 });
