@@ -2,5 +2,5 @@
   "compilerOptions": {
     "jsx": "preserve"
   },
-  "include": ["**/*.ts", "**/*.tsx", "component/HealthForm.ts", "./src", "cypress.d.ts"]
+  "include": ["**/*.ts", "**/*.tsx", "component/HealthForm.ts", "./src", "cypress.d.cjs"]
 }

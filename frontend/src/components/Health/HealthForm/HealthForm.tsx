@@ -88,6 +88,7 @@ export default function HealthForm() {
         ariaLabel="mood"
         defaultValue="mood"
         formId="mood"
+        id="mood"
         formLabel="How are you?"
         radioGroupName="mood"
         onChange={(e) => {
@@ -95,11 +96,20 @@ export default function HealthForm() {
         }}
         value={mood}
       >
-        <RadioChoice choiceLabel="Happy & Motivated" radioId="mood" value="5" />
-        <RadioChoice choiceLabel="Good" radioId="mood" value="4" />
-        <RadioChoice choiceLabel="So-so" radioId="mood" value="3" />
-        <RadioChoice choiceLabel="Unmotivated" radioId="mood" value="2" />
-        <RadioChoice choiceLabel="Bad" radioId="mood" value="1" />
+        <RadioChoice
+          id="mood"
+          choiceLabel="Happy & Motivated"
+          radioId="mood"
+          value="5"
+        />
+        <RadioChoice choiceLabel="Good" radioId="good-mood" value="4" />
+        <RadioChoice choiceLabel="So-so" radioId="so-so" value="3" />
+        <RadioChoice
+          choiceLabel="Unmotivated"
+          radioId="unmotivated"
+          value="2"
+        />
+        <RadioChoice choiceLabel="Bad" radioId="bad" value="1" />
       </RadioInput>
 
       <RadioInput
@@ -112,10 +122,14 @@ export default function HealthForm() {
         }}
         value={energy}
       >
-        <RadioChoice choiceLabel="Energetic" radioId="energy" value="5" />
-        <RadioChoice choiceLabel="Good" radioId="energy" value="4" />
-        <RadioChoice choiceLabel="A bit tired" radioId="energy" value="2" />
-        <RadioChoice choiceLabel="Very tired" radioId="energy" value="0" />
+        <RadioChoice choiceLabel="Energetic" radioId="energetic" value="5" />
+        <RadioChoice choiceLabel="Good" radioId="good-energy" value="4" />
+        <RadioChoice
+          choiceLabel="A bit tired"
+          radioId="a-bit-tired"
+          value="2"
+        />
+        <RadioChoice choiceLabel="Very tired" radioId="very-tired" value="0" />
       </RadioInput>
 
       <RadioInput
@@ -128,8 +142,8 @@ export default function HealthForm() {
         }}
         value={pain}
       >
-        <RadioChoice choiceLabel="Yes" radioId="pain" value="0" />
-        <RadioChoice choiceLabel="No" radioId="pain" value="5" />
+        <RadioChoice choiceLabel="Yes" radioId="yes-pain" value="0" />
+        <RadioChoice choiceLabel="No" radioId="no-pain" value="5" />
       </RadioInput>
 
       <RadioInput
@@ -142,8 +156,8 @@ export default function HealthForm() {
         }}
         value={period}
       >
-        <RadioChoice choiceLabel="Yes" radioId="period" value="3" />
-        <RadioChoice choiceLabel="No" radioId="period" value="5" />
+        <RadioChoice choiceLabel="Yes" radioId="yes-period" value="3" />
+        <RadioChoice choiceLabel="No" radioId="no-period" value="5" />
       </RadioInput>
 
       <RadioInput
@@ -156,20 +170,32 @@ export default function HealthForm() {
         }}
         value={flow}
       >
-        <RadioChoice choiceLabel="No" radioId="flow" value="5" />
-        <RadioChoice choiceLabel="Some discharge" radioId="flow" value="4" />
+        <RadioChoice choiceLabel="No" radioId="no-flow" value="5" />
+        <RadioChoice
+          choiceLabel="Some discharge"
+          radioId="some-discharge"
+          value="4"
+        />
         <RadioChoice
           choiceLabel="A lot of discharge"
-          radioId="flow"
+          radioId="alot-discharge"
           value="3"
         />
-        <RadioChoice choiceLabel="Period=Light flow" radioId="flow" value="2" />
+        <RadioChoice
+          choiceLabel="Period=Light flow"
+          radioId="light-flow"
+          value="2"
+        />
         <RadioChoice
           choiceLabel="Period=Regular flow"
-          radioId="flow"
+          radioId="regular-flow"
           value="1"
         />
-        <RadioChoice choiceLabel="Period=Heavy flow" radioId="flow" value="0" />
+        <RadioChoice
+          choiceLabel="Period=Heavy flow"
+          radioId="heavy-flow"
+          value="0"
+        />
       </RadioInput>
 
       <RadioInput
@@ -182,19 +208,23 @@ export default function HealthForm() {
         }}
         value={periodPain}
       >
-        <RadioChoice choiceLabel="Yes a lot" radioId="period-pain" value="0" />
+        <RadioChoice choiceLabel="Yes a lot" radioId="p-pain-alot" value="0" />
         <RadioChoice
           choiceLabel="Yes a little bit"
-          radioId="period-pain"
+          radioId="p-pain-alittle"
           value="1"
         />
         <RadioChoice
           choiceLabel="Just a little"
-          radioId="period-pain"
+          radioId="p-pain-little"
           value="3"
         />
-        <RadioChoice choiceLabel="Not really" radioId="period-pain" value="4" />
-        <RadioChoice choiceLabel="No" radioId="period-pain" value="5" />
+        <RadioChoice
+          choiceLabel="Not really"
+          radioId="p-pain-notreally"
+          value="4"
+        />
+        <RadioChoice choiceLabel="No" radioId="p-pain-no" value="5" />
       </RadioInput>
       <StyledButtonDiv>
         <ButtonPrimary

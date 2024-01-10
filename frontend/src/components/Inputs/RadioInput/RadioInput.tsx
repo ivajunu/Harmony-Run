@@ -22,6 +22,7 @@ export default function RadioInput(props: RadioInputProps) {
     radioGroupName,
     onChange,
     value,
+    id,
   } = props;
   return (
     <StyledRadioDiv>
@@ -43,6 +44,7 @@ export default function RadioInput(props: RadioInputProps) {
           name={radioGroupName}
           onChange={onChange}
           value={value}
+          id={id}
         >
           <RadioDiv> {children}</RadioDiv>
         </RadioGroup>
