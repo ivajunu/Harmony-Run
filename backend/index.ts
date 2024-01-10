@@ -26,7 +26,6 @@ app.use(score);
 
 // GET anrop
 app.get("/api", async (req, res) => {
-
   const { rows } = await client.query(
       `SELECT * FROM high`
   );

@@ -3,6 +3,7 @@ import RadioChoice from "../../Inputs/RadioInput/RadioChoice";
 import RadioInput from "../../Inputs/RadioInput/RadioInput";
 import ButtonPrimary from "../../Buttons/Button";
 import { Styledh1, StyledButtonDiv } from "./HealthForm.styled.tsx";
+import { useNavigate } from "react-router";
 
 export default function HealthForm() {
   const [mood, setMood] = useState<string>("");
@@ -12,6 +13,8 @@ export default function HealthForm() {
   const [flow, setFlow] = useState<string>("");
   const [periodPain, setPeriodPain] = useState<string>("");
   const [disabled, setDisabled] = useState<boolean>(true);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (
@@ -75,6 +78,7 @@ export default function HealthForm() {
     const finalResult = Converter(dailyResult);
     console.log("finalresult:", finalResult);
     localStorage.setItem("backendKey", JSON.stringify(finalResult));
+    navigate("/workout-advice");
   }
 
   return (
