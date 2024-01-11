@@ -10,9 +10,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         
-      - name: Debug PGURI
-        run: |
-          echo "PGURI: ${{ env.PGURI }}"
+      - name: Set PGURI as an environment variable
+        run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
 
       - name: create env file
         run: |
