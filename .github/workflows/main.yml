@@ -19,6 +19,7 @@ jobs:
         env:
           PGURI: ${{ secrets.PGURI }}
         run: |
+          echo "PGURI: $PGURI"
           npm install
           npm run build
           npm run start
