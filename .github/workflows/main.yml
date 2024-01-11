@@ -13,6 +13,11 @@ jobs:
       - name: Debug PGURI
         run: |
           echo "PGURI: ${{ env.PGURI }}"
+
+      - name: create env file
+        run: |
+         touch .env
+         echo ${{ secrets.PGURI }} >> .env
         
       - name: Start backend
         working-directory: backend
