@@ -27,7 +27,7 @@ jobs:
           echo "PGURI: $PGURI"
           npm install
           npm run build
-          npm run start
+          npm run dev
 
       - name: Start frontend
         working-directory: frontend
