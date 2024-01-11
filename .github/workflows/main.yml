@@ -9,15 +9,21 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
+        
       - name: Set PGURI as an environment variable
         run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
 
+      - name: create env file
+        run: |
+         touch .env
+         echo ${{ secrets.PGURI }} >> .env
+        
       - name: Start backend
         working-directory: backend
         env:
-          DATABASE_PASSWORD: ${{ secrets.PGURI }}
+          PGURI: ${{ secrets.PGURI }}
         run: |
+          echo "PGURI: $PGURI"
           npm install
           npm run build
           npm run start
