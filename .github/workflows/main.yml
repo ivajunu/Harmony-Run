@@ -34,9 +34,6 @@ jobs:
          npm install
          npm run dev &
          npx cypress open &
+         npx cypress run
 
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm start
-          browser: chrome
+      
