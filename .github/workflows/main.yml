@@ -33,7 +33,7 @@ jobs:
          cd frontend
          npm install
          npm run dev &
-         npx cypress open &
-         npx cypress run
+         cy:run-e2e
+         cy:run-unit
 
       
