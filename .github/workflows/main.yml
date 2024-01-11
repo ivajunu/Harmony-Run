@@ -1,0 +1,23 @@
+name: Harmony Run
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps: 
+      - uses: actions/checkout@v4
+      
+      - name: Start backend
+        working-directory: backend
+        run: |
+          npm install
+          npm run dev
+          
+      - name: Start frontend
+        working-directory: frontend
+        run: |
+          npm install
+          npm run dev
+          npx cypress open
+
+        
+         
