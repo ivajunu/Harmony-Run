@@ -10,6 +10,11 @@ const {
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  env: {
+    codeCoverage: {
+      exclude: "cypress/**/*",
+    },
+  },
   e2e: {
     async setupNodeEvents(on, config) {
       const bundler = createBundler({
@@ -22,17 +27,21 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: [
+      // E2E-filer Cypress letar efter som standard
       "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+      // Tillägg för Cucumber
       "cypress/e2e/**/*.feature",
-      "cypress/component/**/*.cy.{js,jsx,ts,tsx}",
-      "cypress/component/**/*.feature",
     ],
   },
-
   component: {
     devServer: {
       framework: "react",
       bundler: "vite",
+    },
+    setupNodeEvents(on, config) {
+      require("@cypress/code-coverage/task")(on, config);
+
+      return config;
     },
   },
 });
