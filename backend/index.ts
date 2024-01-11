@@ -17,7 +17,6 @@ app.use(express.json());
 
 export const client = new Client({
   connectionString: process.env.PGURI,
-  ssl: false,
 });
 
 client.connect();
