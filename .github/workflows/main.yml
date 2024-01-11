@@ -34,7 +34,6 @@ jobs:
          npm install
          npm run dev &
          npx cypress open &
-         cd ..
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
