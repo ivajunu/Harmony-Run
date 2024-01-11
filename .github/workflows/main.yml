@@ -1,10 +1,14 @@
-name: Harmony Run
-on: [push]
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4'
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Set PGURI as an environment variable
         run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
