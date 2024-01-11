@@ -11,9 +11,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set PGURI as an environment variable
-        run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
-        
+        run: echo "PGURI=${{ secrets.PGURI }}" > $GITHUB_ENV
 
+      - name: Debug PGURI
+        run: echo "PGURI: $PGURI" 
+        
       - name: Start backend
         working-directory: backend
         env:
