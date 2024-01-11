@@ -19,18 +19,18 @@ jobs:
          echo ${{ secrets.PGURI }} >> .env
         
       - name: Start backend
-        working-directory: backend
         env:
           PGURI: ${{ secrets.PGURI }}
         run: |
+          cd backend
           npm install
           npm run build
-          echo "Starting backend..."
-          npm run start
+          npm start &
+          cd ..
 
       - name: Start frontend
-        working-directory: frontend
         run: |
-          npm install
-          npm run dev
-          npx cypress open
+         cd frontend
+         npm install
+         npm run dev
+         cd ..
