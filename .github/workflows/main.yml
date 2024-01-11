@@ -9,9 +9,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
+        
       - name: Set PGURI as an environment variable
-        run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
+        run: echo "PGURI=postgres://harmony_run_edes_user:HaTigyxsqZtOStRzmhBNl3Z5bf32FM8M@dpg-cltd3ida73kc73eh2eag-a.frankfurt-postgres.render.com/harmony_run_edes?sslmode=require" >> $GITHUB_ENV
 
       - name: Debug PGURI
         run: |
