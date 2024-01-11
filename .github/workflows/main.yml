@@ -4,7 +4,10 @@ jobs:
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4'
+
+      - name: Set PGURI as an environment variable
+        run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
 
       - name: Start backend
         working-directory: backend
