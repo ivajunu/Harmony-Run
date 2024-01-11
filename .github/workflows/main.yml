@@ -33,7 +33,7 @@ jobs:
          cd frontend
          npm install
          npm run dev &
-         cy:run-e2e
-         cy:run-unit
+         npm run cy:run-e2e
+         npm run cy:run-unit
 
       
