@@ -16,6 +16,7 @@ jobs:
       - name: Start backend
         working-directory: backend
         env:
+          REPOSITORY_VAR: ${{ vars.PGURI }}
           DATABASE_PASSWORD: ${{ secrets.PGURI }}
         run: |
           npm install
