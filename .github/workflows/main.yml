@@ -33,5 +33,8 @@ jobs:
          cd frontend
          npm install
          npm run dev &
-         npx cypress open
+         npx cypress open &
          cd ..
+
+      - name: Run Cypress tests
+        run: npx cypress run
