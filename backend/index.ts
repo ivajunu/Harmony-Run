@@ -1,10 +1,10 @@
 import path from "path";
-import cors from 'cors'
-import dotenv from 'dotenv'
-import { Client } from 'pg'
-import express from 'express'
+import cors from "cors";
+import dotenv from "dotenv";
+import { Client } from "pg";
+import express from "express";
 
-import score from './routes/score'
+import score from "./routes/score";
 
 dotenv.config();
 
@@ -13,10 +13,11 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, "dist")));
-app.use(express.json())
+app.use(express.json());
 
 export const client = new Client({
   connectionString: process.env.PGURI,
+  ssl: false,
 });
 
 client.connect();
@@ -26,11 +27,15 @@ app.use(score);
 
 // GET anrop
 app.get("/api", async (req, res) => {
-  const { rows } = await client.query(
-      `SELECT * FROM high`
-  );
+  try {
+    const { rows } = await client.query(`SELECT * FROM high`);
     console.log("Get user info", rows);
+    console.log(rows);
     res.send(rows);
+  } catch (error) {
+    console.error("Error handling GET request", error);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
 app.listen(port, () => {
