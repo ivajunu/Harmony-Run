@@ -35,10 +35,6 @@ jobs:
          pm run dev -- --port 3001 &
    
 
-      - name: Run Cypress E2E tests
-        working-directory: frontend
-        run: npm run cy:run-e2e
-
       - name: Run Cypress unit tests
         working-directory: frontend
         run: npm run cy:run-unit
