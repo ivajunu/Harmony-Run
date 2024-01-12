@@ -9,7 +9,7 @@ import {
 
 // Scenario: Knappen ska gå att trycka på när inputfälten är ifyllda
 Before(() => {
-  cy.visit("http://localhost:5173/");
+  cy.visit("http://localhost:3001/");
   cy.get("#basic-button").click();
   cy.get("#basic-menu").contains("Daily Health").click();
   cy.url().should("include", "/daily-health").click;

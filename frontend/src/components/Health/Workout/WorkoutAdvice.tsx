@@ -4,6 +4,7 @@ import {
   StyledDiv,
   StyledIntro,
 } from "./WorkoutAdvice.styled";
+import { Link } from "react-router-dom";
 
 interface WorkoutProps {
   id: number;
@@ -17,7 +18,6 @@ export default function WorkoutAdvice() {
   const [randomAdvice, setRandomAdvice] = useState<WorkoutProps>();
   const score = localStorage.getItem("backendKey");
   console.log("värde från localstorage:", score);
-
   useEffect(() => {
     if (score) {
       fetch(`/score?score=${encodeURIComponent(score)}`)
@@ -41,42 +41,61 @@ export default function WorkoutAdvice() {
   }
 
   return (
-    <StyledContainer>
-      <StyledIntro>
-        <h1 style={{ padding: "10px", margin: "20px" }}>Workout advice</h1>
-        <p>
-          This is based on the form. Your score was {score}. Please note that
-          yoúr score may not always be accurate to how you are feeling.
-        </p>
-      </StyledIntro>
-      {randomAdvice && (
-        <StyledDiv>
-          <p>
-            <u>
-              <strong>Type of run:</strong>
-            </u>{" "}
-            {randomAdvice.type}
-          </p>
-          <p>
-            <u>
-              <strong>Duration:</strong>
-            </u>{" "}
-            {randomAdvice.duration}
-          </p>
-          <p>
-            <u>
-              <strong>Intensity:</strong>
-            </u>{" "}
-            {randomAdvice.intensity}
-          </p>
-          <p>
-            <u>
-              <strong>Instruction:</strong>
-            </u>{" "}
-            {randomAdvice.instruction}
-          </p>
-        </StyledDiv>
+    <>
+      {randomAdvice ? (
+        <StyledContainer>
+          <StyledIntro>
+            <h1 style={{ padding: "10px", margin: "20px" }}>Workout advice</h1>
+            <p>
+              This is based on the daily health form. Your score was {score}.
+              Please note that your score may not always be accurate to how you
+              are feeling.
+            </p>
+          </StyledIntro>
+          {randomAdvice && (
+            <StyledDiv>
+              <p>
+                <u>
+                  <strong>Type of run:</strong>
+                </u>{" "}
+                {randomAdvice.type}
+              </p>
+              <p>
+                <u>
+                  <strong>Duration:</strong>
+                </u>{" "}
+                {randomAdvice.duration}
+              </p>
+              <p>
+                <u>
+                  <strong>Intensity:</strong>
+                </u>{" "}
+                {randomAdvice.intensity}
+              </p>
+              <p>
+                <u>
+                  <strong>Instruction:</strong>
+                </u>{" "}
+                {randomAdvice.instruction}
+              </p>
+            </StyledDiv>
+          )}
+        </StyledContainer>
+      ) : (
+        <StyledContainer>
+          <StyledIntro>
+            <h1 style={{ padding: "10px", margin: "20px" }}>
+              Do you not see a workout option/advice?
+            </h1>
+            <p>We could not provide a workout option for you!</p>
+            <p>
+              Please fill out the "daily form" to get a customized workout
+              advice. You can get to daily health{" "}
+              <Link to={"/daily-health"}>here</Link>
+            </p>
+          </StyledIntro>
+        </StyledContainer>
       )}
-    </StyledContainer>
+    </>
   );
 }

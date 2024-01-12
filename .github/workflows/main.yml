@@ -9,15 +9,15 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        
+
       - name: Set PGURI as an environment variable
         run: echo "PGURI=${{ secrets.PGURI }}" >> $GITHUB_ENV
 
       - name: create env file
         run: |
-         touch .env
-         echo ${{ secrets.PGURI }} >> .env
-        
+          touch .env
+          echo ${{ secrets.PGURI }} >> .env
+
       - name: Start backend
         env:
           PGURI: ${{ secrets.PGURI }}
@@ -30,9 +30,9 @@ jobs:
 
       - name: Start frontend
         run: |
-         cd frontend
-         npm install
-         pm run dev -- --port 3001 &
+          cd frontend
+          npm install
+          npm run dev -- --port 3001 &
 
       - name: Run Cypress E2E tests
         working-directory: frontend
@@ -41,4 +41,3 @@ jobs:
       - name: Run Cypress unit tests
         working-directory: frontend
         run: npm run cy:run-unit
-      
