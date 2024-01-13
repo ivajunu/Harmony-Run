@@ -77,14 +77,14 @@ export default function WorkoutAdvice() {
       ) : (
         <StyledContainer>
           <StyledIntro>
-            <h1 style={{ padding: "10px", margin: "20px" }}>
-              Do you not see a workout option/advice?
-            </h1>
+            <h1>Do you not see a workout option/advice?</h1>
             <p>We could not provide a workout option for you!</p>
             <p>
               Please fill out the "daily form" to get a customized workout
-              advice. You can get to daily health{" "}
-              <Link to={"/daily-health"}>here</Link>
+              advice. You can get to the daily health form{" "}
+              <Link to={"/daily-health"}>here.</Link> If you want to see all
+              workouts that harmony run has to offer, click{" "}
+              <Link to={"/all-workouts"}>here</Link>
             </p>
           </StyledIntro>
         </StyledContainer>

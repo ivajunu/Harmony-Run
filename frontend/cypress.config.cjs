@@ -37,6 +37,8 @@ module.exports = defineConfig({
     devServer: {
       framework: "react",
       bundler: "vite",
+      port: 3001,
+      host: "localhost",
     },
     setupNodeEvents(on, config) {
       require("@cypress/code-coverage/task")(on, config);

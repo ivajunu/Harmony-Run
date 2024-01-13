@@ -20,9 +20,10 @@ import {
   StyledNav,
 } from "./App.styled";
 
-import DailyHealth from "./components/Health/DailyHealth";
-import WorkoutAdvice from "./components/Health/Workout/WorkoutAdvice";
 import AllWorkouts from "./components/Health/Workout/Allworkouts/AllWorkouts";
+
+import WorkoutAdvice from "./components/Health/WorkoutAdvice/WorkoutAdvice";
+import DailyHealth from "./components/Health/DailyHealth/DailyHealth";
 
 export default function App() {
   const router = createHashRouter([

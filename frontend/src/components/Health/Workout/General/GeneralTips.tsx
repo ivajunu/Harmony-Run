@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Tips } from "../../../Types";
-import { StyledGeneral } from "../WorkoutAdvice.styled";
+import { StyledGeneral } from "../../WorkoutAdvice/WorkoutAdvice.styled";
 
 export default function GeneralTips() {
   const [tip, setTips] = useState<Tips[] | undefined>([]);
@@ -16,7 +16,7 @@ export default function GeneralTips() {
     <>
       {tip &&
         tip.map((tips) => (
-          <div key={tips.id}>
+          <div key={tips.id} id="general">
             <StyledGeneral>{tips.tips}</StyledGeneral>
           </div>
         ))}

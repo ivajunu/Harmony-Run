@@ -1,10 +1,10 @@
 import { StyledButton, StyledDiv, StyledH2 } from "./Allworkouts.styled";
-import { StyledIntro } from "../WorkoutAdvice.styled";
 import HighIntensity from "./Highintensity";
 import MediumIntensity from "./MediumIntensity";
 import LowIntensity from "./LowIntensity";
 import { useState } from "react";
 import GeneralTips from "../General/GeneralTips";
+import { StyledIntro } from "../../WorkoutAdvice/WorkoutAdvice.styled";
 
 export default function AllWorkouts() {
   const [low, setLow] = useState<boolean>(false);

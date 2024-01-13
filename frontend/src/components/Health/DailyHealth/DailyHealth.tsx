@@ -1,4 +1,4 @@
-import HealthForm from "../Health/HealthForm/HealthForm";
+import HealthForm from "../HealthForm/HealthForm";
 
 export default function DailyHealth() {
   return (
