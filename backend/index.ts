@@ -5,6 +5,10 @@ import { Client } from "pg";
 import express from "express";
 
 import score from "./routes/score";
+import high from "./routes/high";
+import medium from "./routes/medium";
+import low from "./routes/low";
+import tips from "./routes/tips";
 
 dotenv.config();
 
@@ -23,12 +27,16 @@ client.connect();
 
 // routes
 app.use(score);
+app.use(high);
+app.use(medium);
+app.use(low);
+app.use(tips);
 
 // GET anrop
 app.get("/api", async (req, res) => {
   try {
     const { rows } = await client.query(`SELECT * FROM high`);
-    console.log("Get user info", rows);
+    console.log("High intensity workout routines:", rows);
     console.log(rows);
     res.send(rows);
   } catch (error) {

@@ -13,15 +13,6 @@ export const StyledNav = styled.nav`
   box-shadow: 0 3px 10px rgb(164 157 146 / 0.2);
 `;
 
-// export const StyledUl = styled.ul`
-//   display: flex;
-//   justify-content: space-evenly;
-//   width: 100%;
-//   list-style-type: none;
-//   padding: 0;
-//   margin: 0;
-// `;
-
 export const StyledLinks = styled(Link)`
   text-decoration: none;
   font-size: 20px;

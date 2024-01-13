@@ -22,6 +22,7 @@ import {
 
 import DailyHealth from "./components/Health/DailyHealth";
 import WorkoutAdvice from "./components/Health/Workout/WorkoutAdvice";
+import AllWorkouts from "./components/Health/Workout/Allworkouts/AllWorkouts";
 
 export default function App() {
   const router = createHashRouter([
@@ -30,6 +31,7 @@ export default function App() {
         { element: <HomePage />, path: "/" },
         { element: <DailyHealth />, path: "/daily-health" },
         { element: <WorkoutAdvice />, path: "/workout-advice" },
+        { element: <AllWorkouts />, path: "/all-workouts" },
       ],
       element: <Main />,
     },
@@ -96,6 +98,9 @@ function Main() {
               <StyledLinks to="/workout-advice">
                 Workout for the day
               </StyledLinks>
+            </StyledMenuItem>
+            <StyledMenuItem>
+              <StyledLinks to="/all-workouts">All workouts</StyledLinks>
             </StyledMenuItem>
           </Menu>
         </div>

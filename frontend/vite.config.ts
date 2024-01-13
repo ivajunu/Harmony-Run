@@ -19,6 +19,10 @@ export default defineConfig({
     proxy: {
       "/api": "http://localhost:3000",
       "/score": "http://localhost:3000",
+      "/high": "http://localhost:3000",
+      "/medium": "http://localhost:3000",
+      "/low": "http://localhost:3000",
+      "/tips": "http://localhost:3000",
     },
   },
 });

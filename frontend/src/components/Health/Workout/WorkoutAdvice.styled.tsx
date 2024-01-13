@@ -21,3 +21,11 @@ export const StyledIntro = styled.div`
   word-wrap: break-word;
   word-spacing: 2px;
 `;
+
+export const StyledGeneral = styled.div`
+  padding: 10px;
+  color: #a01d5d;
+  margin: 10px;
+  margin-right: 5px;
+  font-weight: 500;
+`;

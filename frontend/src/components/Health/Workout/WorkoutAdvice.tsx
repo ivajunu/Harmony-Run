@@ -5,14 +5,7 @@ import {
   StyledIntro,
 } from "./WorkoutAdvice.styled";
 import { Link } from "react-router-dom";
-
-interface WorkoutProps {
-  id: number;
-  duration: string;
-  instruction: string;
-  intensity: string;
-  type: string;
-}
+import { WorkoutProps } from "../../Types";
 
 export default function WorkoutAdvice() {
   const [randomAdvice, setRandomAdvice] = useState<WorkoutProps>();

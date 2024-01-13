@@ -3,11 +3,10 @@ import { client } from "../index";
 
 const router = express.Router();
 
-router.get("/score", async (req, res) => {
+router.get("/tips", async (req, res) => {
   try {
-    const { score } = req.query;
-    const { rows } = await client.query(`SELECT * FROM ${score}`);
-    console.log("Get workout advice", rows);
+    const { rows } = await client.query(`SELECT * FROM general;`);
+    console.log("General tips:", rows);
     res.send(rows);
   } catch (error) {
     console.error("Error handling GET request", error);
