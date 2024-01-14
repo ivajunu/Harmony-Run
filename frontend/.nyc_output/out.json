@@ -33,7 +33,7 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 3
+      "0": 7
     },
     "f": {},
     "b": {},
@@ -115,12 +115,12 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 3,
-      "1": 3,
-      "2": 3,
-      "3": 3,
-      "4": 3,
-      "5": 3
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 7
     },
     "f": {},
     "b": {},
@@ -146,6 +146,948 @@
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
     "hash": "39dbdf2db4d3268f8d0d719a034795d1f3f70555"
+  },
+  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/Highintensity.tsx": {
+    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/Highintensity.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 20
+        },
+        "end": {
+          "line": 3,
+          "column": 97
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 165
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 39
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 39
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 174
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 75
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 22,
+          "column": 26
+        },
+        "end": {
+          "line": 22,
+          "column": 38
+        }
+      },
+      "12": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 9
+        }
+      },
+      "13": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 7
+        }
+      },
+      "14": {
+        "start": {
+          "line": 24,
+          "column": 38
+        },
+        "end": {
+          "line": 24,
+          "column": 53
+        }
+      },
+      "15": {
+        "start": {
+          "line": 25,
+          "column": 6
+        },
+        "end": {
+          "line": 25,
+          "column": 22
+        }
+      },
+      "16": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 26
+        }
+      },
+      "17": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 108,
+          "column": 11
+        }
+      },
+      "18": {
+        "start": {
+          "line": 30,
+          "column": 31
+        },
+        "end": {
+          "line": 103,
+          "column": 12
+        }
+      },
+      "19": {
+        "start": {
+          "line": 110,
+          "column": 0
+        },
+        "end": {
+          "line": 110,
+          "column": 50
+        }
+      },
+      "20": {
+        "start": {
+          "line": 111,
+          "column": 0
+        },
+        "end": {
+          "line": 111,
+          "column": 19
+        }
+      },
+      "21": {
+        "start": {
+          "line": 113,
+          "column": 0
+        },
+        "end": {
+          "line": 113,
+          "column": 34
+        }
+      },
+      "22": {
+        "start": {
+          "line": 114,
+          "column": 0
+        },
+        "end": {
+          "line": 127,
+          "column": 1
+        }
+      },
+      "23": {
+        "start": {
+          "line": 115,
+          "column": 2
+        },
+        "end": {
+          "line": 115,
+          "column": 39
+        }
+      },
+      "24": {
+        "start": {
+          "line": 116,
+          "column": 2
+        },
+        "end": {
+          "line": 116,
+          "column": 39
+        }
+      },
+      "25": {
+        "start": {
+          "line": 117,
+          "column": 2
+        },
+        "end": {
+          "line": 126,
+          "column": 5
+        }
+      },
+      "26": {
+        "start": {
+          "line": 118,
+          "column": 4
+        },
+        "end": {
+          "line": 118,
+          "column": 200
+        }
+      },
+      "27": {
+        "start": {
+          "line": 119,
+          "column": 4
+        },
+        "end": {
+          "line": 125,
+          "column": 7
+        }
+      },
+      "28": {
+        "start": {
+          "line": 120,
+          "column": 6
+        },
+        "end": {
+          "line": 121,
+          "column": 15
+        }
+      },
+      "29": {
+        "start": {
+          "line": 121,
+          "column": 8
+        },
+        "end": {
+          "line": 121,
+          "column": 15
+        }
+      },
+      "30": {
+        "start": {
+          "line": 122,
+          "column": 32
+        },
+        "end": {
+          "line": 122,
+          "column": 115
+        }
+      },
+      "31": {
+        "start": {
+          "line": 123,
+          "column": 6
+        },
+        "end": {
+          "line": 124,
+          "column": 54
+        }
+      },
+      "32": {
+        "start": {
+          "line": 124,
+          "column": 8
+        },
+        "end": {
+          "line": 124,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 24
+          },
+          "end": {
+            "line": 12,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 38
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "HighIntensity",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 24
+          },
+          "end": {
+            "line": 20,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 40
+          },
+          "end": {
+            "line": 109,
+            "column": 1
+          }
+        },
+        "line": 20
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 12
+          },
+          "end": {
+            "line": 23,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 18
+          },
+          "end": {
+            "line": 28,
+            "column": 3
+          }
+        },
+        "line": 23
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 24
+          },
+          "end": {
+            "line": 24,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 38
+          },
+          "end": {
+            "line": 24,
+            "column": 53
+          }
+        },
+        "line": 24
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 60
+          },
+          "end": {
+            "line": 24,
+            "column": 61
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 72
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 24
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 31
+          },
+          "end": {
+            "line": 103,
+            "column": 12
+          }
+        },
+        "line": 30
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 117,
+            "column": 52
+          },
+          "end": {
+            "line": 117,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 117,
+            "column": 72
+          },
+          "end": {
+            "line": 126,
+            "column": 3
+          }
+        },
+        "line": 117
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 119,
+            "column": 27
+          },
+          "end": {
+            "line": 119,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 119,
+            "column": 44
+          },
+          "end": {
+            "line": 125,
+            "column": 5
+          }
+        },
+        "line": 119
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 97
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 20
+            },
+            "end": {
+              "line": 3,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 3,
+              "column": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 97
+            }
+          }
+        ],
+        "line": 3
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 6
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 35
+            }
+          }
+        ],
+        "line": 6
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 7
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 51
+          },
+          "end": {
+            "line": 104,
+            "column": 3
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 29,
+              "column": 51
+            },
+            "end": {
+              "line": 29,
+              "column": 55
+            }
+          },
+          {
+            "start": {
+              "line": 29,
+              "column": 59
+            },
+            "end": {
+              "line": 104,
+              "column": 3
+            }
+          }
+        ],
+        "line": 29
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 114,
+            "column": 0
+          },
+          "end": {
+            "line": 127,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 114,
+              "column": 0
+            },
+            "end": {
+              "line": 127,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 114
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 114,
+            "column": 4
+          },
+          "end": {
+            "line": 114,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 114,
+              "column": 4
+            },
+            "end": {
+              "line": 114,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 114,
+              "column": 23
+            },
+            "end": {
+              "line": 114,
+              "column": 35
+            }
+          }
+        ],
+        "line": 114
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 120,
+            "column": 6
+          },
+          "end": {
+            "line": 121,
+            "column": 15
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 120,
+              "column": 6
+            },
+            "end": {
+              "line": 121,
+              "column": 15
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 120
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 123,
+            "column": 6
+          },
+          "end": {
+            "line": 124,
+            "column": 54
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 123,
+              "column": 6
+            },
+            "end": {
+              "line": 124,
+              "column": 54
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 123
+      }
+    },
+    "s": {
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 0,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 19,
+      "11": 19,
+      "12": 14,
+      "13": 7,
+      "14": 7,
+      "15": 7,
+      "16": 7,
+      "17": 14,
+      "18": 21,
+      "19": 7,
+      "20": 7,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 7,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0
+    },
+    "f": {
+      "0": 7,
+      "1": 19,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 21,
+      "6": 7,
+      "7": 0
+    },
+    "b": {
+      "0": [
+        7,
+        0
+      ],
+      "1": [
+        7,
+        0
+      ],
+      "2": [
+        7,
+        7
+      ],
+      "3": [
+        0,
+        7
+      ],
+      "4": [
+        14,
+        14
+      ],
+      "5": [
+        7,
+        0
+      ],
+      "6": [
+        7,
+        7
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "mappings": "AAsBgB;2BAtBhB;AAAmBA,oBAAiB,OAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAC3C,SAASC,yBAAyB;AAGlC,wBAAwBC,gBAAgB;AAAAC,KAAA;AACtC,QAAM,CAACC,MAAMC,OAAO,IAAIC,SAAqC,EAAE;AAC/DN,YAAU,MAAM;AACdO,UAAM,OAAO,EACVC,KAAK,CAACC,aAAaA,SAASC,KAAK,CAAC,EAClCF,KAAK,CAACG,WAA2B;AAChCN,cAAQM,MAAM;AACdC,cAAQC,IAAIF,MAAM;AAAA,IACpB,CAAC;AAAA,EACL,GAAG,EAAE;AAEL,SACE,uBAAC,SACEP,kBACCA,KAAKU;AAAAA,IAAI,CAACC,UACR,uBAAC,qBACC;AAAA,6BAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,4BAAR;AAAA;AAAA;AAAA;AAAA,eAAoB,KADtB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJA,MAAMC;AAAAA,WAJT;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,yBAAR;AAAA;AAAA;AAAA;AAAA,eAAiB,KADnB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJD,MAAME;AAAAA,WAJT;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,0BAAR;AAAA;AAAA;AAAA;AAAA,eAAkB,KADpB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJF,MAAMG;AAAAA,WAJT;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,4BAAR;AAAA;AAAA;AAAA;AAAA,eAAoB,KADtB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJH,MAAMI;AAAAA,WAJT;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,SAxBF;AAAA;AAAA;AAAA;AAAA,WAyBA;AAAA,EACD,KA7BL;AAAA;AAAA;AAAA;AAAA,SA8BA;AAEJ;AAAChB,GA5CuBD,eAAa;AAAAkB,KAAblB;AAAa,IAAAkB;AAAAC,aAAAD,IAAA",
+      "names": [
+        "useEffect",
+        "StyledAllWorkouts",
+        "HighIntensity",
+        "_s",
+        "high",
+        "setHigh",
+        "useState",
+        "fetch",
+        "then",
+        "response",
+        "json",
+        "result",
+        "console",
+        "log",
+        "map",
+        "highs",
+        "type",
+        "duration",
+        "intensity",
+        "instruction",
+        "_c",
+        "$RefreshReg$"
+      ],
+      "sources": [
+        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/Highintensity.tsx"
+      ],
+      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/Highintensity.tsx"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "24e1aaf850224fc897400a98cb7a2a1c6f285d3e"
   },
   "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/MediumIntensity.tsx": {
     "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/MediumIntensity.tsx",
@@ -972,34 +1914,34 @@
       }
     },
     "s": {
-      "0": 3,
-      "1": 3,
-      "2": 3,
+      "0": 7,
+      "1": 7,
+      "2": 7,
       "3": 0,
-      "4": 3,
-      "5": 3,
-      "6": 3,
-      "7": 3,
-      "8": 3,
-      "9": 3,
-      "10": 9,
-      "11": 9,
-      "12": 7,
-      "13": 5,
-      "14": 4,
-      "15": 4,
-      "16": 4,
-      "17": 7,
-      "18": 8,
-      "19": 3,
-      "20": 3,
-      "21": 3,
-      "22": 3,
-      "23": 3,
-      "24": 3,
-      "25": 3,
-      "26": 3,
-      "27": 3,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 16,
+      "11": 16,
+      "12": 12,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 12,
+      "18": 24,
+      "19": 7,
+      "20": 7,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 7,
       "28": 0,
       "29": 0,
       "30": 0,
@@ -1007,43 +1949,43 @@
       "32": 0
     },
     "f": {
-      "0": 3,
-      "1": 9,
-      "2": 5,
-      "3": 4,
-      "4": 4,
-      "5": 8,
-      "6": 3,
+      "0": 7,
+      "1": 16,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 24,
+      "6": 7,
       "7": 0
     },
     "b": {
       "0": [
-        3,
+        7,
         0
       ],
       "1": [
-        3,
+        7,
         0
       ],
       "2": [
-        3,
-        3
-      ],
-      "3": [
-        0,
-        3
-      ],
-      "4": [
         7,
         7
       ],
+      "3": [
+        0,
+        7
+      ],
+      "4": [
+        12,
+        12
+      ],
       "5": [
-        3,
+        7,
         0
       ],
       "6": [
-        3,
-        3
+        7,
+        7
       ],
       "7": [
         0,
@@ -1089,8 +2031,2945 @@
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
     "hash": "3f84c0c25548ed78f6e39e5f3b32d6702793fb58"
   },
-  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/MediumIntensity.cy.tsx": {
-    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/MediumIntensity.cy.tsx",
+  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/LowIntensity.tsx": {
+    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/LowIntensity.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 20
+        },
+        "end": {
+          "line": 3,
+          "column": 97
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 165
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 39
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 39
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 173
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 75
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 22,
+          "column": 24
+        },
+        "end": {
+          "line": 22,
+          "column": 36
+        }
+      },
+      "12": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 9
+        }
+      },
+      "13": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 7
+        }
+      },
+      "14": {
+        "start": {
+          "line": 24,
+          "column": 37
+        },
+        "end": {
+          "line": 24,
+          "column": 52
+        }
+      },
+      "15": {
+        "start": {
+          "line": 25,
+          "column": 6
+        },
+        "end": {
+          "line": 25,
+          "column": 21
+        }
+      },
+      "16": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 26
+        }
+      },
+      "17": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 108,
+          "column": 11
+        }
+      },
+      "18": {
+        "start": {
+          "line": 30,
+          "column": 30
+        },
+        "end": {
+          "line": 103,
+          "column": 12
+        }
+      },
+      "19": {
+        "start": {
+          "line": 110,
+          "column": 0
+        },
+        "end": {
+          "line": 110,
+          "column": 49
+        }
+      },
+      "20": {
+        "start": {
+          "line": 111,
+          "column": 0
+        },
+        "end": {
+          "line": 111,
+          "column": 18
+        }
+      },
+      "21": {
+        "start": {
+          "line": 113,
+          "column": 0
+        },
+        "end": {
+          "line": 113,
+          "column": 33
+        }
+      },
+      "22": {
+        "start": {
+          "line": 114,
+          "column": 0
+        },
+        "end": {
+          "line": 127,
+          "column": 1
+        }
+      },
+      "23": {
+        "start": {
+          "line": 115,
+          "column": 2
+        },
+        "end": {
+          "line": 115,
+          "column": 39
+        }
+      },
+      "24": {
+        "start": {
+          "line": 116,
+          "column": 2
+        },
+        "end": {
+          "line": 116,
+          "column": 39
+        }
+      },
+      "25": {
+        "start": {
+          "line": 117,
+          "column": 2
+        },
+        "end": {
+          "line": 126,
+          "column": 5
+        }
+      },
+      "26": {
+        "start": {
+          "line": 118,
+          "column": 4
+        },
+        "end": {
+          "line": 118,
+          "column": 199
+        }
+      },
+      "27": {
+        "start": {
+          "line": 119,
+          "column": 4
+        },
+        "end": {
+          "line": 125,
+          "column": 7
+        }
+      },
+      "28": {
+        "start": {
+          "line": 120,
+          "column": 6
+        },
+        "end": {
+          "line": 121,
+          "column": 15
+        }
+      },
+      "29": {
+        "start": {
+          "line": 121,
+          "column": 8
+        },
+        "end": {
+          "line": 121,
+          "column": 15
+        }
+      },
+      "30": {
+        "start": {
+          "line": 122,
+          "column": 32
+        },
+        "end": {
+          "line": 122,
+          "column": 115
+        }
+      },
+      "31": {
+        "start": {
+          "line": 123,
+          "column": 6
+        },
+        "end": {
+          "line": 124,
+          "column": 54
+        }
+      },
+      "32": {
+        "start": {
+          "line": 124,
+          "column": 8
+        },
+        "end": {
+          "line": 124,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 24
+          },
+          "end": {
+            "line": 12,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 38
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "LowIntensity",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 24
+          },
+          "end": {
+            "line": 20,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 39
+          },
+          "end": {
+            "line": 109,
+            "column": 1
+          }
+        },
+        "line": 20
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 12
+          },
+          "end": {
+            "line": 23,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 18
+          },
+          "end": {
+            "line": 28,
+            "column": 3
+          }
+        },
+        "line": 23
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 23
+          },
+          "end": {
+            "line": 24,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 37
+          },
+          "end": {
+            "line": 24,
+            "column": 52
+          }
+        },
+        "line": 24
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 59
+          },
+          "end": {
+            "line": 24,
+            "column": 60
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 71
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 24
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 30
+          },
+          "end": {
+            "line": 103,
+            "column": 12
+          }
+        },
+        "line": 30
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 117,
+            "column": 52
+          },
+          "end": {
+            "line": 117,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 117,
+            "column": 72
+          },
+          "end": {
+            "line": 126,
+            "column": 3
+          }
+        },
+        "line": 117
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 119,
+            "column": 27
+          },
+          "end": {
+            "line": 119,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 119,
+            "column": 44
+          },
+          "end": {
+            "line": 125,
+            "column": 5
+          }
+        },
+        "line": 119
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 97
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 20
+            },
+            "end": {
+              "line": 3,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 3,
+              "column": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 97
+            }
+          }
+        ],
+        "line": 3
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 6
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 35
+            }
+          }
+        ],
+        "line": 6
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 7
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 51
+          },
+          "end": {
+            "line": 104,
+            "column": 3
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 29,
+              "column": 51
+            },
+            "end": {
+              "line": 29,
+              "column": 54
+            }
+          },
+          {
+            "start": {
+              "line": 29,
+              "column": 58
+            },
+            "end": {
+              "line": 104,
+              "column": 3
+            }
+          }
+        ],
+        "line": 29
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 114,
+            "column": 0
+          },
+          "end": {
+            "line": 127,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 114,
+              "column": 0
+            },
+            "end": {
+              "line": 127,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 114
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 114,
+            "column": 4
+          },
+          "end": {
+            "line": 114,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 114,
+              "column": 4
+            },
+            "end": {
+              "line": 114,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 114,
+              "column": 23
+            },
+            "end": {
+              "line": 114,
+              "column": 35
+            }
+          }
+        ],
+        "line": 114
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 120,
+            "column": 6
+          },
+          "end": {
+            "line": 121,
+            "column": 15
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 120,
+              "column": 6
+            },
+            "end": {
+              "line": 121,
+              "column": 15
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 120
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 123,
+            "column": 6
+          },
+          "end": {
+            "line": 124,
+            "column": 54
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 123,
+              "column": 6
+            },
+            "end": {
+              "line": 124,
+              "column": 54
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 123
+      }
+    },
+    "s": {
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 0,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 13,
+      "11": 13,
+      "12": 10,
+      "13": 5,
+      "14": 5,
+      "15": 5,
+      "16": 5,
+      "17": 10,
+      "18": 15,
+      "19": 7,
+      "20": 7,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 7,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0
+    },
+    "f": {
+      "0": 7,
+      "1": 13,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 15,
+      "6": 7,
+      "7": 0
+    },
+    "b": {
+      "0": [
+        7,
+        0
+      ],
+      "1": [
+        7,
+        0
+      ],
+      "2": [
+        7,
+        7
+      ],
+      "3": [
+        0,
+        7
+      ],
+      "4": [
+        10,
+        10
+      ],
+      "5": [
+        7,
+        0
+      ],
+      "6": [
+        7,
+        7
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "mappings": "AA6BgB;2BA7BhB;AAAmBA,oBAAiB,OAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAC3C,SAASC,yBAAyB;AAUlC,wBAAwBC,eAAe;AAAAC,KAAA;AACrC,QAAM,CAACC,KAAKC,MAAM,IAAIC,SAAqC,EAAE;AAC7DN,YAAU,MAAM;AACdO,UAAM,MAAM,EACTC,KAAK,CAACC,aAAaA,SAASC,KAAK,CAAC,EAClCF,KAAK,CAACG,WAA2B;AAChCN,aAAOM,MAAM;AACbC,cAAQC,IAAIF,MAAM;AAAA,IACpB,CAAC;AAAA,EACL,GAAG,EAAE;AAEL,SACE,uBAAC,SACEP,iBACCA,IAAIU;AAAAA,IAAI,CAACC,SACP,uBAAC,qBACC;AAAA,6BAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,4BAAR;AAAA;AAAA;AAAA;AAAA,eAAoB,KADtB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJA,KAAKC;AAAAA,WAJR;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,yBAAR;AAAA;AAAA;AAAA;AAAA,eAAiB,KADnB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJD,KAAKE;AAAAA,WAJR;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,0BAAR;AAAA;AAAA;AAAA;AAAA,eAAkB,KADpB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJF,KAAKG;AAAAA,WAJR;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,MACA,uBAAC,OACC;AAAA,+BAAC,OACC,iCAAC,YAAO,4BAAR;AAAA;AAAA;AAAA;AAAA,eAAoB,KADtB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QAAK;AAAA,QACJH,KAAKI;AAAAA,WAJR;AAAA;AAAA;AAAA;AAAA,aAKA;AAAA,SAxBF;AAAA;AAAA;AAAA;AAAA,WAyBA;AAAA,EACD,KA7BL;AAAA;AAAA;AAAA;AAAA,SA8BA;AAEJ;AAAChB,GA5CuBD,cAAY;AAAAkB,KAAZlB;AAAY,IAAAkB;AAAAC,aAAAD,IAAA",
+      "names": [
+        "useEffect",
+        "StyledAllWorkouts",
+        "LowIntensity",
+        "_s",
+        "low",
+        "setLow",
+        "useState",
+        "fetch",
+        "then",
+        "response",
+        "json",
+        "result",
+        "console",
+        "log",
+        "map",
+        "lows",
+        "type",
+        "duration",
+        "intensity",
+        "instruction",
+        "_c",
+        "$RefreshReg$"
+      ],
+      "sources": [
+        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/LowIntensity.tsx"
+      ],
+      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/LowIntensity.tsx"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "57d4458ef8c5b38e8bd0bf68bc5767a31fa4c777"
+  },
+  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/WorkoutAdvice/WorkoutAdvice.styled.tsx": {
+    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/WorkoutAdvice/WorkoutAdvice.styled.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 25
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 27
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 29
+        },
+        "end": {
+          "line": 27,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 7
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "mappings": "AAAA,OAAOA,YAAY;AAEZ,aAAMC,kBAAkBD,OAAOE;AAAAA;AAAAA;AAI/B,aAAMC,YAAYH,OAAOE;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAWzB,aAAME,cAAcJ,OAAOE;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAO3B,aAAMG,gBAAgBL,OAAOE;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA;AAAAA",
+      "names": [
+        "styled",
+        "StyledContainer",
+        "div",
+        "StyledDiv",
+        "StyledIntro",
+        "StyledGeneral"
+      ],
+      "sources": [
+        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/WorkoutAdvice/WorkoutAdvice.styled.tsx"
+      ],
+      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/WorkoutAdvice/WorkoutAdvice.styled.tsx"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dd84e34ba4279e65b63b9c032514f4dfe4d39c8d"
+  },
+  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/General/GeneralTips.tsx": {
+    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/General/GeneralTips.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 20
+        },
+        "end": {
+          "line": 3,
+          "column": 97
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 165
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 39
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 39
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 168
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 75
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 22,
+          "column": 25
+        },
+        "end": {
+          "line": 22,
+          "column": 37
+        }
+      },
+      "12": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 9
+        }
+      },
+      "13": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 7
+        }
+      },
+      "14": {
+        "start": {
+          "line": 24,
+          "column": 38
+        },
+        "end": {
+          "line": 24,
+          "column": 53
+        }
+      },
+      "15": {
+        "start": {
+          "line": 25,
+          "column": 6
+        },
+        "end": {
+          "line": 25,
+          "column": 22
+        }
+      },
+      "16": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 26
+        }
+      },
+      "17": {
+        "start": {
+          "line": 29,
+          "column": 2
+        },
+        "end": {
+          "line": 43,
+          "column": 11
+        }
+      },
+      "18": {
+        "start": {
+          "line": 30,
+          "column": 30
+        },
+        "end": {
+          "line": 38,
+          "column": 12
+        }
+      },
+      "19": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 48
+        }
+      },
+      "20": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 17
+        }
+      },
+      "21": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 32
+        }
+      },
+      "22": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 1
+        }
+      },
+      "23": {
+        "start": {
+          "line": 50,
+          "column": 2
+        },
+        "end": {
+          "line": 50,
+          "column": 39
+        }
+      },
+      "24": {
+        "start": {
+          "line": 51,
+          "column": 2
+        },
+        "end": {
+          "line": 51,
+          "column": 39
+        }
+      },
+      "25": {
+        "start": {
+          "line": 52,
+          "column": 2
+        },
+        "end": {
+          "line": 61,
+          "column": 5
+        }
+      },
+      "26": {
+        "start": {
+          "line": 53,
+          "column": 4
+        },
+        "end": {
+          "line": 53,
+          "column": 194
+        }
+      },
+      "27": {
+        "start": {
+          "line": 54,
+          "column": 4
+        },
+        "end": {
+          "line": 60,
+          "column": 7
+        }
+      },
+      "28": {
+        "start": {
+          "line": 55,
+          "column": 6
+        },
+        "end": {
+          "line": 56,
+          "column": 15
+        }
+      },
+      "29": {
+        "start": {
+          "line": 56,
+          "column": 8
+        },
+        "end": {
+          "line": 56,
+          "column": 15
+        }
+      },
+      "30": {
+        "start": {
+          "line": 57,
+          "column": 32
+        },
+        "end": {
+          "line": 57,
+          "column": 115
+        }
+      },
+      "31": {
+        "start": {
+          "line": 58,
+          "column": 6
+        },
+        "end": {
+          "line": 59,
+          "column": 54
+        }
+      },
+      "32": {
+        "start": {
+          "line": 59,
+          "column": 8
+        },
+        "end": {
+          "line": 59,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 24
+          },
+          "end": {
+            "line": 12,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 38
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "GeneralTips",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 24
+          },
+          "end": {
+            "line": 20,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 38
+          },
+          "end": {
+            "line": 44,
+            "column": 1
+          }
+        },
+        "line": 20
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 12
+          },
+          "end": {
+            "line": 23,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 18
+          },
+          "end": {
+            "line": 28,
+            "column": 3
+          }
+        },
+        "line": 23
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 24
+          },
+          "end": {
+            "line": 24,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 38
+          },
+          "end": {
+            "line": 24,
+            "column": 53
+          }
+        },
+        "line": 24
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 60
+          },
+          "end": {
+            "line": 24,
+            "column": 61
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 72
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 24
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 30
+          },
+          "end": {
+            "line": 38,
+            "column": 12
+          }
+        },
+        "line": 30
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 52,
+            "column": 52
+          },
+          "end": {
+            "line": 52,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 72
+          },
+          "end": {
+            "line": 61,
+            "column": 3
+          }
+        },
+        "line": 52
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 54,
+            "column": 27
+          },
+          "end": {
+            "line": 54,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 54,
+            "column": 44
+          },
+          "end": {
+            "line": 60,
+            "column": 5
+          }
+        },
+        "line": 54
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 97
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 20
+            },
+            "end": {
+              "line": 3,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 3,
+              "column": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 97
+            }
+          }
+        ],
+        "line": 3
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 6
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 35
+            }
+          }
+        ],
+        "line": 6
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 7
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 54
+          },
+          "end": {
+            "line": 39,
+            "column": 3
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 29,
+              "column": 54
+            },
+            "end": {
+              "line": 29,
+              "column": 57
+            }
+          },
+          {
+            "start": {
+              "line": 29,
+              "column": 61
+            },
+            "end": {
+              "line": 39,
+              "column": 3
+            }
+          }
+        ],
+        "line": 29
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 0
+          },
+          "end": {
+            "line": 62,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 49,
+              "column": 0
+            },
+            "end": {
+              "line": 62,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 49
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 4
+          },
+          "end": {
+            "line": 49,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 49,
+              "column": 4
+            },
+            "end": {
+              "line": 49,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 49,
+              "column": 23
+            },
+            "end": {
+              "line": 49,
+              "column": 35
+            }
+          }
+        ],
+        "line": 49
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 55,
+            "column": 6
+          },
+          "end": {
+            "line": 56,
+            "column": 15
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 55,
+              "column": 6
+            },
+            "end": {
+              "line": 56,
+              "column": 15
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 55
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 58,
+            "column": 6
+          },
+          "end": {
+            "line": 59,
+            "column": 54
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 58,
+              "column": 6
+            },
+            "end": {
+              "line": 59,
+              "column": 54
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 58
+      }
+    },
+    "s": {
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 0,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 71,
+      "11": 71,
+      "12": 71,
+      "13": 27,
+      "14": 25,
+      "15": 25,
+      "16": 25,
+      "17": 71,
+      "18": 150,
+      "19": 7,
+      "20": 7,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 7,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0
+    },
+    "f": {
+      "0": 7,
+      "1": 71,
+      "2": 27,
+      "3": 25,
+      "4": 25,
+      "5": 150,
+      "6": 7,
+      "7": 0
+    },
+    "b": {
+      "0": [
+        7,
+        0
+      ],
+      "1": [
+        7,
+        0
+      ],
+      "2": [
+        7,
+        7
+      ],
+      "3": [
+        0,
+        7
+      ],
+      "4": [
+        71,
+        71
+      ],
+      "5": [
+        7,
+        0
+      ],
+      "6": [
+        7,
+        7
+      ],
+      "7": [
+        0,
+        0
+      ],
+      "8": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "mappings": "AAeI,mBAIQ,cAJR;2BAfJ;AAAmBA,oBAAiB,OAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAE3C,SAASC,qBAAqB;AAE9B,wBAAwBC,cAAc;AAAAC,KAAA;AACpC,QAAM,CAACC,KAAKC,OAAO,IAAIC,SAA6B,EAAE;AACtDN,YAAU,MAAM;AACdO,UAAM,OAAO,EACVC,KAAK,CAACC,aAAaA,SAASC,KAAK,CAAC,EAClCF,KAAK,CAACG,WAAmB;AACxBN,cAAQM,MAAM;AACdC,cAAQC,IAAIF,MAAM;AAAA,IACpB,CAAC;AAAA,EACL,GAAG,EAAE;AACL,SACE,mCACGP,iBACCA,IAAIU;AAAAA,IAAI,CAACC,SACP,uBAAC,SAAkB,IAAG,WACpB,iCAAC,iBAAeA,eAAKA,QAArB;AAAA;AAAA;AAAA;AAAA,WAA0B,KADlBA,KAAKC,IAAf;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,EACD,KANL;AAAA;AAAA;AAAA;AAAA,SAOA;AAEJ;AAACb,GApBuBD,aAAW;AAAAe,KAAXf;AAAW,IAAAe;AAAAC,aAAAD,IAAA",
+      "names": [
+        "useEffect",
+        "StyledGeneral",
+        "GeneralTips",
+        "_s",
+        "tip",
+        "setTips",
+        "useState",
+        "fetch",
+        "then",
+        "response",
+        "json",
+        "result",
+        "console",
+        "log",
+        "map",
+        "tips",
+        "id",
+        "_c",
+        "$RefreshReg$"
+      ],
+      "sources": [
+        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/General/GeneralTips.tsx"
+      ],
+      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/General/GeneralTips.tsx"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ca8e66e131c7314e644ba93a10cc1c0cc003e695"
+  },
+  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/AllWorkouts.tsx": {
+    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/AllWorkouts.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 20
+        },
+        "end": {
+          "line": 3,
+          "column": 97
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 165
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 39
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": 39
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 4
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 172
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 15,
+          "column": 75
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 27,
+          "column": 24
+        },
+        "end": {
+          "line": 27,
+          "column": 39
+        }
+      },
+      "12": {
+        "start": {
+          "line": 28,
+          "column": 30
+        },
+        "end": {
+          "line": 28,
+          "column": 45
+        }
+      },
+      "13": {
+        "start": {
+          "line": 29,
+          "column": 26
+        },
+        "end": {
+          "line": 29,
+          "column": 41
+        }
+      },
+      "14": {
+        "start": {
+          "line": 30,
+          "column": 2
+        },
+        "end": {
+          "line": 126,
+          "column": 11
+        }
+      },
+      "15": {
+        "start": {
+          "line": 45,
+          "column": 12
+        },
+        "end": {
+          "line": 45,
+          "column": 27
+        }
+      },
+      "16": {
+        "start": {
+          "line": 67,
+          "column": 12
+        },
+        "end": {
+          "line": 67,
+          "column": 31
+        }
+      },
+      "17": {
+        "start": {
+          "line": 89,
+          "column": 12
+        },
+        "end": {
+          "line": 89,
+          "column": 25
+        }
+      },
+      "18": {
+        "start": {
+          "line": 128,
+          "column": 0
+        },
+        "end": {
+          "line": 128,
+          "column": 48
+        }
+      },
+      "19": {
+        "start": {
+          "line": 129,
+          "column": 0
+        },
+        "end": {
+          "line": 129,
+          "column": 17
+        }
+      },
+      "20": {
+        "start": {
+          "line": 131,
+          "column": 0
+        },
+        "end": {
+          "line": 131,
+          "column": 32
+        }
+      },
+      "21": {
+        "start": {
+          "line": 132,
+          "column": 0
+        },
+        "end": {
+          "line": 145,
+          "column": 1
+        }
+      },
+      "22": {
+        "start": {
+          "line": 133,
+          "column": 2
+        },
+        "end": {
+          "line": 133,
+          "column": 39
+        }
+      },
+      "23": {
+        "start": {
+          "line": 134,
+          "column": 2
+        },
+        "end": {
+          "line": 134,
+          "column": 39
+        }
+      },
+      "24": {
+        "start": {
+          "line": 135,
+          "column": 2
+        },
+        "end": {
+          "line": 144,
+          "column": 5
+        }
+      },
+      "25": {
+        "start": {
+          "line": 136,
+          "column": 4
+        },
+        "end": {
+          "line": 136,
+          "column": 198
+        }
+      },
+      "26": {
+        "start": {
+          "line": 137,
+          "column": 4
+        },
+        "end": {
+          "line": 143,
+          "column": 7
+        }
+      },
+      "27": {
+        "start": {
+          "line": 138,
+          "column": 6
+        },
+        "end": {
+          "line": 139,
+          "column": 15
+        }
+      },
+      "28": {
+        "start": {
+          "line": 139,
+          "column": 8
+        },
+        "end": {
+          "line": 139,
+          "column": 15
+        }
+      },
+      "29": {
+        "start": {
+          "line": 140,
+          "column": 32
+        },
+        "end": {
+          "line": 140,
+          "column": 115
+        }
+      },
+      "30": {
+        "start": {
+          "line": 141,
+          "column": 6
+        },
+        "end": {
+          "line": 142,
+          "column": 54
+        }
+      },
+      "31": {
+        "start": {
+          "line": 142,
+          "column": 8
+        },
+        "end": {
+          "line": 142,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 24
+          },
+          "end": {
+            "line": 12,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 38
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "AllWorkouts",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 24
+          },
+          "end": {
+            "line": 25,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 38
+          },
+          "end": {
+            "line": 127,
+            "column": 1
+          }
+        },
+        "line": 25
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 19
+          },
+          "end": {
+            "line": 44,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 25
+          },
+          "end": {
+            "line": 46,
+            "column": 11
+          }
+        },
+        "line": 44
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 66,
+            "column": 19
+          },
+          "end": {
+            "line": 66,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 25
+          },
+          "end": {
+            "line": 68,
+            "column": 11
+          }
+        },
+        "line": 66
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 88,
+            "column": 19
+          },
+          "end": {
+            "line": 88,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 88,
+            "column": 25
+          },
+          "end": {
+            "line": 90,
+            "column": 11
+          }
+        },
+        "line": 88
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 135,
+            "column": 52
+          },
+          "end": {
+            "line": 135,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 135,
+            "column": 72
+          },
+          "end": {
+            "line": 144,
+            "column": 3
+          }
+        },
+        "line": 135
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 137,
+            "column": 27
+          },
+          "end": {
+            "line": 137,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 137,
+            "column": 44
+          },
+          "end": {
+            "line": 143,
+            "column": 5
+          }
+        },
+        "line": 137
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 97
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 20
+            },
+            "end": {
+              "line": 3,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 3,
+              "column": 64
+            },
+            "end": {
+              "line": 3,
+              "column": 97
+            }
+          }
+        ],
+        "line": 3
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 6
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 23
+            },
+            "end": {
+              "line": 6,
+              "column": 35
+            }
+          }
+        ],
+        "line": 6
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 7
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 58,
+            "column": 6
+          },
+          "end": {
+            "line": 62,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 58,
+              "column": 6
+            },
+            "end": {
+              "line": 58,
+              "column": 10
+            }
+          },
+          {
+            "start": {
+              "line": 58,
+              "column": 30
+            },
+            "end": {
+              "line": 62,
+              "column": 14
+            }
+          }
+        ],
+        "line": 58
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 80,
+            "column": 6
+          },
+          "end": {
+            "line": 84,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 80,
+              "column": 6
+            },
+            "end": {
+              "line": 80,
+              "column": 12
+            }
+          },
+          {
+            "start": {
+              "line": 80,
+              "column": 32
+            },
+            "end": {
+              "line": 84,
+              "column": 14
+            }
+          }
+        ],
+        "line": 80
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 102,
+            "column": 6
+          },
+          "end": {
+            "line": 106,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 102,
+              "column": 6
+            },
+            "end": {
+              "line": 102,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 102,
+              "column": 29
+            },
+            "end": {
+              "line": 106,
+              "column": 14
+            }
+          }
+        ],
+        "line": 102
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 132,
+            "column": 0
+          },
+          "end": {
+            "line": 145,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 132,
+              "column": 0
+            },
+            "end": {
+              "line": 145,
+              "column": 1
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 132
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 132,
+            "column": 4
+          },
+          "end": {
+            "line": 132,
+            "column": 35
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 132,
+              "column": 4
+            },
+            "end": {
+              "line": 132,
+              "column": 19
+            }
+          },
+          {
+            "start": {
+              "line": 132,
+              "column": 23
+            },
+            "end": {
+              "line": 132,
+              "column": 35
+            }
+          }
+        ],
+        "line": 132
+      },
+      "9": {
+        "loc": {
+          "start": {
+            "line": 138,
+            "column": 6
+          },
+          "end": {
+            "line": 139,
+            "column": 15
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 138,
+              "column": 6
+            },
+            "end": {
+              "line": 139,
+              "column": 15
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 138
+      },
+      "10": {
+        "loc": {
+          "start": {
+            "line": 141,
+            "column": 6
+          },
+          "end": {
+            "line": 142,
+            "column": 54
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 141,
+              "column": 6
+            },
+            "end": {
+              "line": 142,
+              "column": 54
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 141
+      }
+    },
+    "s": {
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 0,
+      "4": 7,
+      "5": 7,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 7,
+      "10": 56,
+      "11": 56,
+      "12": 51,
+      "13": 51,
+      "14": 51,
+      "15": 9,
+      "16": 8,
+      "17": 7,
+      "18": 7,
+      "19": 7,
+      "20": 7,
+      "21": 7,
+      "22": 7,
+      "23": 7,
+      "24": 7,
+      "25": 7,
+      "26": 7,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0
+    },
+    "f": {
+      "0": 7,
+      "1": 56,
+      "2": 9,
+      "3": 8,
+      "4": 7,
+      "5": 7,
+      "6": 0
+    },
+    "b": {
+      "0": [
+        7,
+        0
+      ],
+      "1": [
+        7,
+        0
+      ],
+      "2": [
+        7,
+        7
+      ],
+      "3": [
+        0,
+        7
+      ],
+      "4": [
+        51,
+        7
+      ],
+      "5": [
+        51,
+        6
+      ],
+      "6": [
+        51,
+        5
+      ],
+      "7": [
+        7,
+        0
+      ],
+      "8": [
+        7,
+        7
+      ],
+      "9": [
+        0,
+        0
+      ],
+      "10": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "mappings": "AAaI,mBAEI,cAFJ;2BAbJ;AAAqB,MAAEA,cAAWC,OAAQ,sBAAQ,eAAsB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACxE,OAAOC,mBAAmB;AAC1B,OAAOC,qBAAqB;AAC5B,OAAOC,kBAAkB;AACzB,SAASC,gBAAgB;AACzB,OAAOC,iBAAiB;AACxB,SAASC,mBAAmB;AAE5B,wBAAwBC,cAAc;AAAAC,KAAA;AACpC,QAAM,CAACC,KAAKC,MAAM,IAAIN,SAAkB,KAAK;AAC7C,QAAM,CAACO,QAAQC,SAAS,IAAIR,SAAkB,KAAK;AACnD,QAAM,CAACS,MAAMC,OAAO,IAAIV,SAAkB,KAAK;AAC/C,SACE,mCACE;AAAA,2BAAC,eACC,iCAAC,QAAG,OAAO,EAAEW,QAAQ,MAAM,GAAG,mCAA9B;AAAA;AAAA;AAAA;AAAA,WAAiD,KADnD;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,uBAAC,aACC;AAAA;AAAA,QAAC;AAAA;AAAA,UACC,SAAS,MAAM;AACbD,oBAAQ,CAACD,IAAI;AAAA,UACf;AAAA,UAAE;AAAA;AAAA,QAHJ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAMA;AAAA,MACCA,QAAQ,uBAAC,mBAAD;AAAA;AAAA;AAAA;AAAA,aAAc;AAAA,MACvB;AAAA,QAAC;AAAA;AAAA,UACC,SAAS,MAAM;AACbD,sBAAU,CAACD,MAAM;AAAA,UACnB;AAAA,UAAE;AAAA;AAAA,QAHJ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAMA;AAAA,MACCA,UAAU,uBAAC,qBAAD;AAAA;AAAA;AAAA;AAAA,aAAgB;AAAA,MAC3B;AAAA,QAAC;AAAA;AAAA,UACC,SAAS,MAAM;AACbD,mBAAO,CAACD,GAAG;AAAA,UACb;AAAA,UAAE;AAAA;AAAA,QAHJ;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAMA;AAAA,MACCA,OAAO,uBAAC,kBAAD;AAAA;AAAA;AAAA;AAAA,aAAa;AAAA,SAxBvB;AAAA;AAAA;AAAA;AAAA,WAyBA;AAAA,IACA,uBAAC,YAAS,+CAAV;AAAA;AAAA;AAAA;AAAA,WAAyC;AAAA,IACzC,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY;AAAA,OA/Bd;AAAA;AAAA;AAAA;AAAA,SAgCA;AAEJ;AAACD,GAvCuBD,aAAW;AAAAS,KAAXT;AAAW,IAAAS;AAAAC,aAAAD,IAAA",
+      "names": [
+        "StyledDiv",
+        "StyledH2",
+        "HighIntensity",
+        "MediumIntensity",
+        "LowIntensity",
+        "useState",
+        "GeneralTips",
+        "StyledIntro",
+        "AllWorkouts",
+        "_s",
+        "low",
+        "setLow",
+        "medium",
+        "setMedium",
+        "high",
+        "setHigh",
+        "margin",
+        "_c",
+        "$RefreshReg$"
+      ],
+      "sources": [
+        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/AllWorkouts.tsx"
+      ],
+      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/src/components/Health/Workout/Allworkouts/AllWorkouts.tsx"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b255e740d2c8407180d05c87a3fc6faa4660cab6"
+  },
+  "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/AllWorkouts.cy.tsx": {
+    "path": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/AllWorkouts.cy.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -1098,7 +4977,7 @@
           "column": 0
         },
         "end": {
-          "line": 22,
+          "line": 84,
           "column": 3
         }
       },
@@ -1108,7 +4987,7 @@
           "column": 2
         },
         "end": {
-          "line": 10,
+          "line": 11,
           "column": 5
         }
       },
@@ -1124,7 +5003,17 @@
       },
       "3": {
         "start": {
-          "line": 11,
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": 49
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
           "column": 2
         },
         "end": {
@@ -1132,24 +5021,14 @@
           "column": 5
         }
       },
-      "4": {
-        "start": {
-          "line": 12,
-          "column": 4
-        },
-        "end": {
-          "line": 16,
-          "column": 14
-        }
-      },
       "5": {
         "start": {
-          "line": 17,
+          "line": 13,
           "column": 4
         },
         "end": {
           "line": 17,
-          "column": 47
+          "column": 14
         }
       },
       "6": {
@@ -1159,7 +5038,7 @@
         },
         "end": {
           "line": 18,
-          "column": 49
+          "column": 57
         }
       },
       "7": {
@@ -1169,7 +5048,7 @@
         },
         "end": {
           "line": 19,
-          "column": 67
+          "column": 59
         }
       },
       "8": {
@@ -1179,7 +5058,327 @@
         },
         "end": {
           "line": 20,
+          "column": 56
+        }
+      },
+      "9": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 32,
+          "column": 5
+        }
+      },
+      "10": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 14
+        }
+      },
+      "11": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 65
+        }
+      },
+      "12": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 48
+        }
+      },
+      "13": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 52
+        }
+      },
+      "14": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 49
+        }
+      },
+      "15": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 43,
+          "column": 5
+        }
+      },
+      "16": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 14
+        }
+      },
+      "17": {
+        "start": {
+          "line": 39,
+          "column": 4
+        },
+        "end": {
+          "line": 39,
+          "column": 67
+        }
+      },
+      "18": {
+        "start": {
+          "line": 40,
+          "column": 4
+        },
+        "end": {
+          "line": 40,
+          "column": 47
+        }
+      },
+      "19": {
+        "start": {
+          "line": 41,
+          "column": 4
+        },
+        "end": {
+          "line": 41,
+          "column": 67
+        }
+      },
+      "20": {
+        "start": {
+          "line": 42,
+          "column": 4
+        },
+        "end": {
+          "line": 42,
           "column": 53
+        }
+      },
+      "21": {
+        "start": {
+          "line": 44,
+          "column": 2
+        },
+        "end": {
+          "line": 60,
+          "column": 5
+        }
+      },
+      "22": {
+        "start": {
+          "line": 45,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": 14
+        }
+      },
+      "23": {
+        "start": {
+          "line": 50,
+          "column": 4
+        },
+        "end": {
+          "line": 50,
+          "column": 64
+        }
+      },
+      "24": {
+        "start": {
+          "line": 51,
+          "column": 4
+        },
+        "end": {
+          "line": 53,
+          "column": 6
+        }
+      },
+      "25": {
+        "start": {
+          "line": 54,
+          "column": 4
+        },
+        "end": {
+          "line": 56,
+          "column": 6
+        }
+      },
+      "26": {
+        "start": {
+          "line": 57,
+          "column": 4
+        },
+        "end": {
+          "line": 59,
+          "column": 6
+        }
+      },
+      "27": {
+        "start": {
+          "line": 61,
+          "column": 2
+        },
+        "end": {
+          "line": 83,
+          "column": 5
+        }
+      },
+      "28": {
+        "start": {
+          "line": 62,
+          "column": 4
+        },
+        "end": {
+          "line": 66,
+          "column": 14
+        }
+      },
+      "29": {
+        "start": {
+          "line": 67,
+          "column": 4
+        },
+        "end": {
+          "line": 67,
+          "column": 65
+        }
+      },
+      "30": {
+        "start": {
+          "line": 68,
+          "column": 4
+        },
+        "end": {
+          "line": 68,
+          "column": 48
+        }
+      },
+      "31": {
+        "start": {
+          "line": 69,
+          "column": 4
+        },
+        "end": {
+          "line": 69,
+          "column": 65
+        }
+      },
+      "32": {
+        "start": {
+          "line": 70,
+          "column": 4
+        },
+        "end": {
+          "line": 70,
+          "column": 68
+        }
+      },
+      "33": {
+        "start": {
+          "line": 71,
+          "column": 4
+        },
+        "end": {
+          "line": 71,
+          "column": 67
+        }
+      },
+      "34": {
+        "start": {
+          "line": 72,
+          "column": 4
+        },
+        "end": {
+          "line": 72,
+          "column": 47
+        }
+      },
+      "35": {
+        "start": {
+          "line": 73,
+          "column": 4
+        },
+        "end": {
+          "line": 73,
+          "column": 67
+        }
+      },
+      "36": {
+        "start": {
+          "line": 74,
+          "column": 4
+        },
+        "end": {
+          "line": 74,
+          "column": 67
+        }
+      },
+      "37": {
+        "start": {
+          "line": 75,
+          "column": 4
+        },
+        "end": {
+          "line": 75,
+          "column": 64
+        }
+      },
+      "38": {
+        "start": {
+          "line": 76,
+          "column": 4
+        },
+        "end": {
+          "line": 78,
+          "column": 6
+        }
+      },
+      "39": {
+        "start": {
+          "line": 79,
+          "column": 4
+        },
+        "end": {
+          "line": 79,
+          "column": 64
+        }
+      },
+      "40": {
+        "start": {
+          "line": 80,
+          "column": 4
+        },
+        "end": {
+          "line": 82,
+          "column": 26
         }
       }
     },
@@ -1189,20 +5388,20 @@
         "decl": {
           "start": {
             "line": 3,
-            "column": 32
+            "column": 28
           },
           "end": {
             "line": 3,
-            "column": 33
+            "column": 29
           }
         },
         "loc": {
           "start": {
             "line": 3,
-            "column": 38
+            "column": 34
           },
           "end": {
-            "line": 22,
+            "line": 84,
             "column": 1
           }
         },
@@ -1213,20 +5412,20 @@
         "decl": {
           "start": {
             "line": 4,
-            "column": 39
+            "column": 42
           },
           "end": {
             "line": 4,
-            "column": 40
+            "column": 43
           }
         },
         "loc": {
           "start": {
             "line": 4,
-            "column": 45
+            "column": 48
           },
           "end": {
-            "line": 10,
+            "line": 11,
             "column": 3
           }
         },
@@ -1236,63 +5435,197 @@
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 11,
-            "column": 44
+            "line": 12,
+            "column": 42
           },
           "end": {
-            "line": 11,
-            "column": 45
+            "line": 12,
+            "column": 43
           }
         },
         "loc": {
           "start": {
-            "line": 11,
-            "column": 50
+            "line": 12,
+            "column": 48
           },
           "end": {
             "line": 21,
             "column": 3
           }
         },
-        "line": 11
+        "line": 12
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 111
+          },
+          "end": {
+            "line": 22,
+            "column": 112
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 117
+          },
+          "end": {
+            "line": 32,
+            "column": 3
+          }
+        },
+        "line": 22
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 33,
+            "column": 113
+          },
+          "end": {
+            "line": 33,
+            "column": 114
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 119
+          },
+          "end": {
+            "line": 43,
+            "column": 3
+          }
+        },
+        "line": 33
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 118
+          },
+          "end": {
+            "line": 44,
+            "column": 119
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 124
+          },
+          "end": {
+            "line": 60,
+            "column": 3
+          }
+        },
+        "line": 44
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 61,
+            "column": 113
+          },
+          "end": {
+            "line": 61,
+            "column": 114
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 119
+          },
+          "end": {
+            "line": 83,
+            "column": 3
+          }
+        },
+        "line": 61
       }
     },
     "branchMap": {},
     "s": {
-      "0": 3,
-      "1": 3,
-      "2": 3,
-      "3": 3,
-      "4": 2,
-      "5": 2,
-      "6": 2,
-      "7": 2,
-      "8": 2
+      "0": 7,
+      "1": 7,
+      "2": 7,
+      "3": 7,
+      "4": 7,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 7,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
+      "15": 7,
+      "16": 4,
+      "17": 4,
+      "18": 4,
+      "19": 4,
+      "20": 4,
+      "21": 7,
+      "22": 3,
+      "23": 3,
+      "24": 3,
+      "25": 3,
+      "26": 3,
+      "27": 7,
+      "28": 2,
+      "29": 2,
+      "30": 2,
+      "31": 2,
+      "32": 2,
+      "33": 2,
+      "34": 2,
+      "35": 2,
+      "36": 2,
+      "37": 2,
+      "38": 2,
+      "39": 2,
+      "40": 2
     },
     "f": {
-      "0": 3,
-      "1": 3,
-      "2": 2
+      "0": 7,
+      "1": 7,
+      "2": 6,
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 2
     },
     "b": {},
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAIa;AAJb,OAAOA,qBAAqB;AAE5BC,SAAS,uBAAuB,MAAM;AACpCC,KAAG,kCAAkC,MAAM;AACzCC,OAAGC,MAAM,uBAAC,qBAAD;AAAA;AAAA;AAAA;AAAA,WAAgB,CAAG;AAAA,EAC9B,CAAC;AAEDF,KAAG,uCAAuC,MAAM;AAC9CC,OAAGC,MAAM,uBAAC,qBAAD;AAAA;AAAA;AAAA;AAAA,WAAgB,CAAG;AAC5BD,OAAGE,IAAI,KAAK,EAAEC,SAAS,kBAAkB;AACzCH,OAAGE,IAAI,KAAK,EAAEC,SAAS,oBAAoB;AAC3CH,OAAGE,IAAI,KAAK,EAAEC,SAAS,sCAAsC;AAC7DH,OAAGE,IAAI,KAAK,EAAEC,SAAS,wBAAwB;AAAA,EACjD,CAAC;AACH,CAAC",
+      "mappings": "AAIa;AAJb,OAAOA,iBAAiB;AAExBC,SAAS,mBAAmB,MAAM;AAChCC,KAAG,qCAAqC,MAAM;AAC5CC,OAAGC,MAAM,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY,CAAG;AACxBD,OAAGE,IAAI,IAAI,EAAEC,SAAS,qBAAqB;AAAA,EAC7C,CAAC;AAEDJ,KAAG,qCAAqC,MAAM;AAC5CC,OAAGC,MAAM,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY,CAAG;AACxBD,OAAGE,IAAI,QAAQ,EAAEC,SAAS,yBAAyB;AACnDH,OAAGE,IAAI,QAAQ,EAAEC,SAAS,2BAA2B;AACrDH,OAAGE,IAAI,QAAQ,EAAEC,SAAS,wBAAwB;AAAA,EACpD,CAAC;AAEDJ,KAAG,0GAA0G,MAAM;AACjHC,OAAGC,MAAM,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY,CAAG;AACxBD,OAAGE,IAAI,QAAQ,EAAEC,SAAS,yBAAyB,EAAEC,MAAM;AAC3DJ,OAAGE,IAAI,KAAK,EAAEC,SAAS,mBAAmB;AAC1CH,OAAGE,IAAI,KAAK,EAAEC,SAAS,uBAAuB;AAC9CH,OAAGE,IAAI,KAAK,EAAEC,SAAS,oBAAoB;AAAA,EAC7C,CAAC;AAEDJ,KAAG,4GAA4G,MAAM;AACnHC,OAAGC,MAAM,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY,CAAG;AACxBD,OAAGE,IAAI,QAAQ,EAAEC,SAAS,2BAA2B,EAAEC,MAAM;AAC7DJ,OAAGE,IAAI,KAAK,EAAEC,SAAS,kBAAkB;AACzCH,OAAGE,IAAI,KAAK,EAAEC,SAAS,sCAAsC;AAC7DH,OAAGE,IAAI,KAAK,EAAEC,SAAS,wBAAwB;AAAA,EACjD,CAAC;AAEDJ,KAAG,iHAAiH,MAAM;AACxHC,OAAGC,MAAM,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY,CAAG;AACxBD,OAAGE,IAAI,QAAQ,EAAEC,SAAS,wBAAwB,EAAEC,MAAM;AAC1DJ,OAAGE,IAAI,KAAK,EAAEC;AAAAA,MACZ;AAAA,IACF;AACAH,OAAGE,IAAI,KAAK,EAAEC;AAAAA,MACZ;AAAA,IACF;AACAH,OAAGE,IAAI,KAAK,EAAEC;AAAAA,MACZ;AAAA,IACF;AAAA,EACF,CAAC;AAEDJ,KAAG,4GAA4G,MAAM;AACnHC,OAAGC,MAAM,uBAAC,iBAAD;AAAA;AAAA;AAAA;AAAA,WAAY,CAAG;AACxBD,OAAGE,IAAI,QAAQ,EAAEC,SAAS,yBAAyB,EAAEC,MAAM;AAC3DJ,OAAGE,IAAI,KAAK,EAAEC,SAAS,mBAAmB;AAC1CH,OAAGE,IAAI,QAAQ,EAAEC,SAAS,yBAAyB,EAAEC,MAAM;AAC3DJ,OAAGE,IAAI,KAAK,EAAEC,SAAS,mBAAmB,EAAEE,OAAO,WAAW;AAE9DL,OAAGE,IAAI,QAAQ,EAAEC,SAAS,2BAA2B,EAAEC,MAAM;AAC7DJ,OAAGE,IAAI,KAAK,EAAEC,SAAS,kBAAkB;AACzCH,OAAGE,IAAI,QAAQ,EAAEC,SAAS,2BAA2B,EAAEC,MAAM;AAC7DJ,OAAGE,IAAI,KAAK,EAAEC,SAAS,kBAAkB,EAAEE,OAAO,WAAW;AAE7DL,OAAGE,IAAI,QAAQ,EAAEC,SAAS,wBAAwB,EAAEC,MAAM;AAC1DJ,OAAGE,IAAI,KAAK,EAAEC;AAAAA,MACZ;AAAA,IACF;AACAH,OAAGE,IAAI,QAAQ,EAAEC,SAAS,wBAAwB,EAAEC,MAAM;AAC1DJ,OAAGE,IAAI,KAAK,EACTC;AAAAA,MACC;AAAA,IACF,EACCE,OAAO,WAAW;AAAA,EACvB,CAAC;AACH,CAAC",
       "names": [
-        "MediumIntensity",
+        "AllWorkouts",
         "describe",
         "it",
         "cy",
         "mount",
         "get",
-        "contains"
+        "contains",
+        "click",
+        "should"
       ],
       "sources": [
-        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/MediumIntensity.cy.tsx"
+        "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/AllWorkouts.cy.tsx"
       ],
-      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/MediumIntensity.cy.tsx"
+      "file": "C:/Users/Ivann/Documents/Skola/testing-typescript/harmony-run/frontend/cypress/component/AllWorkouts.cy.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "41e507f76babab91dd462a9cc8b9e1c11d3514b5"
+    "hash": "5f974abfc87f3e822402708b50886b16b0d5ca4e"
   }
 }
