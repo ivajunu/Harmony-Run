@@ -32,7 +32,7 @@ app.use(medium);
 app.use(low);
 app.use(tips);
 
-// GET anrop
+// GET anrop test
 app.get("/api", async (req, res) => {
   try {
     const { rows } = await client.query(`SELECT * FROM high`);

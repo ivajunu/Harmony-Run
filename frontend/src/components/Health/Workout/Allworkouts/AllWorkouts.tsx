@@ -10,6 +10,7 @@ export default function AllWorkouts() {
   const [low, setLow] = useState<boolean>(false);
   const [medium, setMedium] = useState<boolean>(false);
   const [high, setHigh] = useState<boolean>(false);
+
   return (
     <>
       <StyledIntro>

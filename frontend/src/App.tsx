@@ -5,6 +5,8 @@ import HomePage from "./components/HomePage/HomePage";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+
 import {
   createHashRouter,
   Link,
@@ -24,6 +26,7 @@ import AllWorkouts from "./components/Health/Workout/Allworkouts/AllWorkouts";
 
 import WorkoutAdvice from "./components/Health/WorkoutAdvice/WorkoutAdvice";
 import DailyHealth from "./components/Health/DailyHealth/DailyHealth";
+import SignIn from "./components/User/SignIn";
 
 export default function App() {
   const router = createHashRouter([
@@ -33,6 +36,7 @@ export default function App() {
         { element: <DailyHealth />, path: "/daily-health" },
         { element: <WorkoutAdvice />, path: "/workout-advice" },
         { element: <AllWorkouts />, path: "/all-workouts" },
+        { element: <SignIn />, path: "/sign-in" },
       ],
       element: <Main />,
     },
@@ -58,22 +62,36 @@ function Main() {
         <StyledH1>
           <Link to="/">Harmony Run</Link>
         </StyledH1>
-        <div>
-          <Button
-            id="basic-button"
-            aria-controls={open ? "basic-menu" : undefined}
-            aria-haspopup="true"
-            aria-expanded={open ? "true" : undefined}
-            onClick={handleClick}
-          >
-            <MenuIcon
-              sx={{
-                color: "#f3ecef",
-                width: "50px",
-                height: "45px",
-              }}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+          }}
+        >
+          <Link to={"/sign-in"}>
+            <AccountCircleIcon
+              sx={{ color: "#f3ecef", width: "50px", height: "45px" }}
             />
-          </Button>
+          </Link>
+
+          <div>
+            <Button
+              id="basic-button"
+              aria-controls={open ? "basic-menu" : undefined}
+              aria-haspopup="true"
+              aria-expanded={open ? "true" : undefined}
+              onClick={handleClick}
+            >
+              <MenuIcon
+                sx={{
+                  color: "#f3ecef",
+                  width: "50px",
+                  height: "45px",
+                }}
+              />
+            </Button>
+          </div>
           <Menu
             id="basic-menu"
             anchorEl={anchorEl}

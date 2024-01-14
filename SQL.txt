@@ -28,6 +28,12 @@ id serial PRIMARY KEY,
 tips text
 );
 
+CREATE TABLE users (
+id serial PRIMARY KEY,
+users text,
+password text
+);
+
 INSERT INTO general (tips) VALUES ('Listen to Your Body: Pay attention to how your body feels during the run. If you need to take it easy or push a bit harder, adjust accordingly.');
 
 INSERT INTO general (tips) VALUES ('Stay Hydrated: Hydration is important, especially during your period. Drink water before, during, and after your run.');

@@ -23,6 +23,7 @@ export default defineConfig({
       "/medium": "http://localhost:3000",
       "/low": "http://localhost:3000",
       "/tips": "http://localhost:3000",
+      "/users": "http://localhost:3000",
     },
   },
 });

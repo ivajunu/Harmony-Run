@@ -9,7 +9,6 @@ export const StyledNav = styled.nav`
   padding: 10px;
   border-bottom: 0.5px solid #e591b9;
   border-bottom-left-radius: 50%;
-  /* border-bottom-right-radius: 20%; */
   box-shadow: 0 3px 10px rgb(164 157 146 / 0.2);
 `;
 
