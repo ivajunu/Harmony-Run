@@ -46,7 +46,7 @@ export default function WorkoutAdvice() {
             </p>
           </StyledIntro>
           {randomAdvice && (
-            <StyledDiv>
+            <StyledDiv id="workoutadvice">
               <p>
                 <u>
                   <strong>Type of run:</strong>
